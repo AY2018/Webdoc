@@ -1,0 +1,51 @@
+/* 18365e */
+
+.ecampusContainer .brief{
+    padding: 20px 100px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.brief h2, .brief h3{
+    color: #18365e;
+}
+
+.brief p{
+    text-align: justify;
+}
+.brief figure{
+    width: 200px;
+    margin-inline: auto;
+}
+
+.brief ul{
+    padding-left: 40px;
+}
+
+.brief ul span{
+    font-weight: bold;
+    
+}
+
+.brief .firstUL span{
+font-style: italic;
+    color: #18365e;
+}
+
+.brief a{
+    font-size: 1.5rem;
+    font-weight:  bold;
+    padding: 16px 35px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-inline: auto;
+    background-color: #18365e;
+    transition: 0.2s ease;
+}
+
+.brief a:hover{
+    transform: scale(0.98);
+}

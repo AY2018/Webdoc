@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <title>Document</title>
+  </head>
+  <body class="homePageBody">
+    <header>
+      <nav>
+        <div class="nav_top">
+          <a href="" id="unclickableLink" class="unclickableLink "
+            >
+          <img class="isDiasbled" src="../img.video/logoEcampus.svg" alt=""
+          />
+        </a>
+          <a href="./notes.html" id="unclickableLink2" class="unclickableLink">
+            <img class="isDiasbled" src="../img.video/note-removebg-preview.png" alt="" />
+          </a>
+        </div>
+        <div class="nav_bottom">
+          <a href=""><i class="fa-solid fa-question"></i></a>
+          <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article class="notif" onclick="closeNotif()">
+        <figure>
+          <img src="../img.video/mailLogo.png" alt="" />
+        </figure>
+        <section>
+          <h1>IUT de Vélizy-Rambouillet</h1>
+          <h2>Bienvenue!</h2>
+          <p>
+            Bonjour, Nous sommes heureux de vous annoncer que vous avez été
+            accepté dans notre nouveau programme "Dans la ....
+          </p>
+          <span onclick="OpenMail()">Ouvrir l'email</span>
+        </section>
+      </article>
+
+      <article id="mail">
+        <section class="heading">
+          <div class="infoMail">
+            <h1>IUT de Vélizy-Rambouillet</h1>
+            <h2>Bienvenue!</h2>
+          </div>
+          <div class="date">
+            <p id="date">13 Janvier 2024 à 10:00</p>
+          </div>
+        </section>
+        <hr />
+        <section class="text">
+          Bonjour, <br /><br />
+          Nous sommes heureux de vous annoncer que vous avez été accepté dans
+          notre nouveau programme « Dans la peau d’un MMI ». <br />
+          <br />
+          Vous êtes convié à l’IUT de Vélizy où vous participerez à une SAE, une
+          méthode d’évaluation pratiquée en BUT MMI. Elle permet de mettre les
+          étudiants dans des situations professionnelles réalistes où ils
+          utiliseront leurs différentes compétences acquises lors de leur
+          formation. <br />
+          <br />
+          Pendant un mois, vous ferez partie d’une équipe de quatre étudiants.
+          Ils sont chacun spécialisés dans un des pôles phares du BUT MMI. Ils
+          vous guideront et vous feront découvrir les coulisses de leur
+          formation. <br />
+          <br />
+          Ci-dessous, un lien qui mène vers notre plateforme E-Campus où vous
+          pourrait découvrir le sujet du projet :
+          <br />
+          <br />
+          <a href="./ecampus.html">Lien Ecampus</a>
+          <br />
+          <br />
+          Bien à vous, <br />
+          <br />
+          <span>
+            L’équipe pédagogique du BUT MMI de l’IUT de Vélizy-Rambouillet.
+          </span>
+        </section>
+      </article>
+
+      
+
+
+    <script src="../js/index.js"></script>
+    <script src="../js/homepage.js"></script>
+  </body>
+</html>

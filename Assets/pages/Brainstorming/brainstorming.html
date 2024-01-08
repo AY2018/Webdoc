@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/ecampus.css" />
+    <link rel="stylesheet" href="./brainstorming.css" />
+    <title>Brainstorming</title>
+  </head>
+  <body class="homePageBody">
+    <header>
+      <nav>
+        <div class="nav_top">
+          <a href="../ecampus.html" class="current"
+            ><img src="../../img.video/logoEcampus.svg" alt=""
+          /></a>
+          <a href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt=""
+          /></a>
+        </div>
+        <div class="nav_bottom">
+          <a href=""><i class="fa-solid fa-question"></i></a>
+          <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article class="ecampusContainer">
+        <section class="ecampusHeading">
+          <h1>Ayoub - Brainstorming</h1>
+        </section>
+
+        <section class="brainstorming">
+          <section class="brainstormingContent">
+            <div class="top">
+              <audio id="brainAudio" controls>
+                <source src="../../img.video/brainAudio.mp3" />
+              </audio>
+
+              <h2 style="display: none;">Et toi, tu prendrais lequel ?</h2>
+            </div>
+
+            <div class="bottom" id="bottom" style="display: none;">
+              <div class="bottomGallery">
+                <div class="wrapper">
+                  <div class="card">
+                    <div class="front">
+                      <h3>1. Les femmes dans le numérique</h3>
+                    </div>
+                    <div class="back">
+                      <p>
+                        On a peur que ce sujet n’intéresse pas assez les
+                        étudiants. Ça concerne les profils plutôt scientifiques.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wrapper" id="correct">
+                  <div class="card">
+                    <div class="front">
+                      <h3>
+                        2. Le harcèlement – en visant l’harceleur directement
+                      </h3>
+                    </div>
+                    <div class="back">
+                      <p>
+                        C’est vrai que ce sujet, sous cet angle. C’est
+                        authentique. On te suit !
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wrapper">
+                  <div class="card">
+                    <div class="front">
+                      <h3>3. L’accessibilité dans le numérique</h3>
+                    </div>
+                    <div class="back">
+                      <p>
+                        <p>À voir. Il y a déjà une équipe qui prend ce sujet.</p>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="wrapper">
+                  <div class="card">
+                    <div class="front">
+                      <h3>4. La domination occidentale</h3>
+                    </div>
+                    <div class="back">
+                      <p>
+                      Le sujet est intéressant. Mais, on a peur qu’il manque de
+                      dynamisme.
+                    </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button id="validateBtn">Valider</button>
+              <a href="../ecampus.html" onclick="completeStage(2)" style="display: none;" class="finalBtn" id="nextStageLink">Partie Communication</a>
+            </div>
+            
+          </section>
+        </section>
+      </article>
+    </main>
+
+    <script src="../../js/index.js"></script>
+    <script src="./brainstorming.js"></script>
+  </body>
+</html>
