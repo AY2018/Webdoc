@@ -22,6 +22,58 @@ const notesData = {
             // More subparts can be added here
         ]
     },
+    "Spécialités": {
+        title: "Spécialités",
+        content: [
+            {
+                subTitle: "3 Spécialités en 2ème année",
+                text: "Lorem, ipsum..."
+            },
+            // More subparts can be added here
+        ]
+    },
+    "Brainstorming": {
+        title: "Brainstorming",
+        content: [
+            {
+                subTitle: "Qu'est ce que le Brainstorming ?",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Le thème :",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Sujet + Axe :",
+                text: "Cyberbullying",
+                // Add more properties as needed
+            },
+            // More subparts can be added here
+        ]
+    },
+    "Communication": {
+        title: "Communication",
+        content: [
+            {
+                subTitle: "Qu'est ce que le Comm ?",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Recherche",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Pour ce sujet :",
+                text: "On a choisit de partir sur un ton dark",
+                // Add more properties as needed
+            },
+            // More subparts can be added here
+        ]
+    },
     // Add other notes here
 };
 

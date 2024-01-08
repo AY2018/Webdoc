@@ -1,7 +1,7 @@
 // Check if a stage is saved in local storage, if not initialize it to 0
 let stage = localStorage.getItem('stage') !== null ? parseInt(localStorage.getItem('stage')) : 0;
 
-stage = 5;
+// stage = 5;
 // Function to update the stage both locally and (eventually) on the server
 function updateStage(newStage) {
     stage = newStage;
