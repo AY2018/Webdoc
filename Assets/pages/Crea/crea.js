@@ -24,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const palettes = document.querySelectorAll('.palette');
   const mockupImage = document.getElementById('mockup');
   const validateDiv = document.getElementById('validate');
+  let end = false;
 
    const conversation = [
   { text: "Salut, c’est Erwan, on passe à la créa ?", sender: "other", firstOther: true, note: "First noooote", delay: 100},
@@ -69,10 +70,17 @@ function addMessagesSequentially(messages, index, returnAfterLastMessage = false
     setTimeout(function() {
       addMessagesSequentially(messages, index + 1, returnAfterLastMessage);
     }, message.delay);
-  } else if (returnAfterLastMessage) {
-    Return();
+  } else {
+    if (returnAfterLastMessage) {
+      Return();
+    }
+    // Add .end class to whatsappBot section if it's the end of newMessagesAfterReturn
+    if (messages === newMessagesAfterReturn) {
+      document.getElementById('whatsappBot').classList.add('end');
+    }
   }
 }
+
 
   function addNoteToList(note) {
     if (!notesList.textContent.includes(note)) {

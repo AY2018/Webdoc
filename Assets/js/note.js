@@ -74,6 +74,66 @@ const notesData = {
             // More subparts can be added here
         ]
     },
+
+    "Création Numérique": {
+        title: "Création Numérique",
+        content: [
+            {
+                subTitle: "On fait quoi en crea",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Arborescence : structurer le site",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Maquettes",
+                text: "On a choisit de partir sur un ton dark",
+                // Add more properties as needed
+            },
+            // More subparts can be added here
+        ]
+    },
+
+    "Pause": {
+        title: "Les conseils de Fabien et Charles",
+        content: [
+            {
+                subTitle: "Fabien : Apprend de ton côté",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            },
+            {
+                subTitle: "Charles : Apprend des autres",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            }
+            // More subparts can be added here
+        ]
+    },
+    "Audiovisuel": {
+        title: "Audiovisuel",
+        content: [
+            {
+                subTitle: "Les différents types de caméras",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            }
+        ]
+    },
+    "Dév web": {
+        title: "Dév web",
+        content: [
+            {
+                subTitle: "Front VS Back",
+                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+                // Add more properties as needed
+            }
+        ]
+    },
+
     // Add other notes here
 };
 

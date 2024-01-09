@@ -344,3 +344,28 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     height: 500px;
     object-fit: contain;
 }
+
+.end div,
+.end>i {
+    display: none;
+}
+
+.whatsappBot a {
+    display: none;
+}
+
+.end {
+    height: 100px;
+}
+
+.end a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: purple;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+    gap: 20px;
+}
