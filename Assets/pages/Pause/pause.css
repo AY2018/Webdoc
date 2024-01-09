@@ -1,8 +1,57 @@
 .ecampusContainer{
     padding: 0;
+    position: relative;
+    
 }
 video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#buttonSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    gap: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.766);
+}
+
+#buttonSection a{
+    color: white;
+    font-size: 2rem;
+    background-color: #4D2465;
+    padding: 13px 36px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+#refresh{
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+
+#buttonSection a:hover{
+    filter: brightness(1.5);
+}
+
+#refresh:hover {
+    transform: scale(0.95);
 }

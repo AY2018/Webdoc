@@ -1,0 +1,346 @@
+.crea{
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Video Container */
+.crea .creaContainer{
+    height: 100%;
+    background-color: khaki;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.creaContainer .whatsappContainer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+
+
+/* Whatsapp Top */
+.whatsappHeading{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #1f2c33;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+
+.whatsappHeading figure{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsappHeading img{
+    object-fit: contain;
+    height: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.whatsappHeading h2{
+    font-size: 1.5rem;
+}
+
+.whatsappHeading p{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Conversation */
+#conv{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ff000090;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url(../../img.video/whatsappBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.startBtnContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.713);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+.startBtnContainer button{
+    padding: 16px 36px;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.conv .mine{
+    background-color: #015c4b;
+    align-self: flex-end;
+}
+
+.conv .other{
+    background-color: #1f2c33;
+    
+}
+
+.conv li{
+    width: fit-content;
+    border-radius:5px;
+    padding: 5px;
+    position: relative;
+    text-wrap: wrap;
+    max-width: 70%;
+}
+
+.conv li img{
+    width: 100%;
+}
+
+.conv .firstMine::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top:0;
+    right: -7px;
+    z-index: 7;
+    background-color: #015c4b;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.conv .firstOther::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    z-index: 7;
+    background-color: #1f2c33;
+clip-path: polygon(100% 100%, 100% 0, 0 0);}
+
+.firstOther, .firstMine{
+    margin-top: 10px;
+}
+.conv span{
+    color: #4ba9d1;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.conv span:hover {
+    filter: brightness(1.5);
+}
+
+/* Whatsapp Bot*/
+
+
+.whatsappBot{
+    background-color: #1f2c33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+
+.whatsappBot .messageSendContainer{
+    background-color: #2a3942;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.whatsappBot .messageSendContainer p{
+    opacity: 0.8;
+}
+
+
+.whatsappBot i{
+    font-size: 1.5rem;
+}
+
+/* NExt */
+
+/* .notesContainer{
+    display: none;
+} */
+
+
+.newContainer{
+    width: 100% !important;
+}
+
+.newContainer .whatsappContainer{
+    width: 33%;
+}
+
+.creaContainer .exerciceContainer{
+    display: none;
+}
+
+.newContainer .exerciceContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5%;
+    width: 67%;
+    height: 100%;
+    gap: 20px;
+}
+
+/* Palette choices */
+
+
+
+.paletteChoices{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.palette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.palette:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.selected{
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        border: 3px solid #015c4b;
+}
+
+.paletteColors{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.paletteColors span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    border-radius: 50%;
+}
+
+.palette1 span:nth-child(1){
+    background-color: green;
+    border-radius: 1px solid black;
+}
+.palette1 span:nth-child(2){
+    background-color: red;
+    border-radius: 1px solid black;
+}
+.palette1 span:nth-child(3){
+    background-color: purple;
+    border-radius: 1px solid black;
+}
+
+
+.palette2 span:nth-child(1) {
+    background-color: yellow;
+    border-radius: 1px solid black;
+}
+
+.palette2 span:nth-child(2) {
+    background-color: red;
+    border-radius: 1px solid black;
+}
+
+.palette2 span:nth-child(3) {
+    background-color: orange;
+    border-radius: 1px solid black;
+}
+
+
+.palette3 span:nth-child(1) {
+    background-color: gray;
+    border-radius: 1px solid black;
+}
+
+.palette3 span:nth-child(2) {
+    background-color: white;
+    border-radius: 1px solid black;
+}
+
+.palette3 span:nth-child(3) {
+    background-color: cyan;
+    border-radius: 1px solid black;
+}
+
+#validate{
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 16px 35px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-inline: auto;
+    background-color: #18365e;
+    transition: 0.2s ease;
+}
+
+#validate:hover {
+    transform: scale(0.98);
+}
+
+/* Right column*/
+
+.exerciceContainer img{
+    border-radius: 20px;
+    height: 500px;
+    object-fit: contain;
+}

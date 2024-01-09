@@ -1,0 +1,29 @@
+
+LOADER
+
+ECAMPUS
+- Add images of use in the ecampus card for our section
+
+
+NOTES : 
+- Contenu des notes à mettre
+- Ajouter la notification au fur et à mesure. 
+
+INSTRUCTIONS : 
+- Améliorer les pages 
+
+CREA : 
+- Pauffiner les messages (ajouter aussi des emojis)
+- Style the overflow scroll bar
+
+
+
+Endroit où il faudra ajoute le prénom : 
+- Dans un des messages (partie Crea/Audio) : Les messages sont crées dans les fichiers Js de ces parties.
+- Header de chaque page (partie en violet où y a le titre de l'étape)
+
+
+
+
+
+

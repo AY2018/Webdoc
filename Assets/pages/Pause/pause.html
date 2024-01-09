@@ -35,12 +35,20 @@
 
     <main>
       <article class="ecampusContainer">
-        <video controls>
-          <source src="../../img.video/marie1.mp4" type="video/mp4" />
+        <video controls id="videoPause">
+          <source src="../../img.video/pause.mp4" type="video/mp4" />
         </video>
+        <section id="buttonSection">
+          <a onclick="completeStage(5)" href="../ecampus.html"
+            >Commencer la partie Audiovisuel
+            <i class="fa-solid fa-angles-right"></i
+          ></a>
+          <div id="refresh"><i class="fa-solid fa-rotate-right"></i></div>
+        </section>
       </article>
     </main>
 
     <script src="../../js/index.js"></script>
+    <script src="./pause.js"></script>
   </body>
 </html>

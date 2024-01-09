@@ -1,0 +1,269 @@
+.crea{
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Video Container */
+.crea .creaContainer{
+    height: 100%;
+    background-color: khaki;
+    width: 70%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.whatsappContainer{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+}
+
+
+
+/* Whatsapp Top */
+.whatsappHeading{
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #1f2c33;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+
+.whatsappHeading figure{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsappHeading img{
+    object-fit: contain;
+    height: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+.whatsappHeading h2{
+    font-size: 1.5rem;
+}
+
+.whatsappHeading p{
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Conversation */
+#conv{
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #ff000090;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-image: url(../../img.video/whatsappBg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.startBtnContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.713);
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+}
+
+.startBtnContainer button{
+    padding: 16px 36px;
+    font-size: 1.5rem;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.conv .mine{
+    background-color: #015c4b;
+    align-self: flex-end;
+}
+
+.conv .other{
+    background-color: #1f2c33;
+    
+}
+
+.conv li{
+    width: fit-content;
+    border-radius:5px;
+    padding: 5px;
+    position: relative;
+    text-wrap: wrap;
+    max-width: 70%;
+}
+
+
+.conv .firstMine::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top:0;
+    right: -7px;
+    z-index: 7;
+    background-color: #015c4b;
+    clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.conv .firstOther::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 0;
+    left: -7px;
+    z-index: 7;
+    background-color: #1f2c33;
+clip-path: polygon(100% 100%, 100% 0, 0 0);}
+
+.firstOther, .firstMine{
+    margin-top: 10px;
+}
+.conv span{
+    color: #4ba9d1;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.conv span:hover {
+    filter: brightness(1.5);
+}
+
+/* Whatsapp Bot*/
+
+
+.whatsappBot{
+    background-color: #1f2c33;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    position: relative;
+}
+
+
+#choices{
+    display: flex;
+    position: absolute;
+    top: -50px;
+    z-index: 99;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    display: none;
+}
+
+@keyframes appear {
+    to{
+        opacity: 1;
+    }
+}
+
+#choices div{
+    background-color: #131b1f;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    opacity: 0;
+    transition: filter 0.2s ease-in;
+    animation: appear 0.3s ease-in forwards;
+}
+
+#choices div:nth-child(2){
+    animation-delay: 0.3s;
+}
+
+#choices div:nth-child(3){
+    animation-delay: 0.6s;
+}
+
+#choices div:hover{
+    filter: brightness(1.5);
+}
+
+
+.whatsappBot .messageSendContainer{
+    background-color: #2a3942;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.whatsappBot .messageSendContainer p{
+    opacity: 0.8;
+}
+
+
+.whatsappBot i{
+    font-size: 1.5rem;
+}
+
+
+.conv li{
+    display: flex;
+    align-items: center;
+}
+
+.end div, .end > i{
+    display: none;
+}
+
+.whatsappBot a {
+    display: none;
+}
+
+.end{
+    height: 100px;
+}
+.end a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: purple;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+    gap: 20px;
+}
