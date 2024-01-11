@@ -41,6 +41,16 @@
 
 }
 
+#notesList::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+#notesList::-webkit-scrollbar-thumb {
+    background-color: #ffffff30;
+    border-radius: 10px;
+}
+
 #notesList li{
     opacity: 0;
     animation: FadeIn 0.5s ease-in forwards;

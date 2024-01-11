@@ -79,21 +79,63 @@ const notesData = {
         title: "Création Numérique",
         content: [
             {
-                subTitle: "On fait quoi en crea",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
+                subTitle: "Sites/Logiciels",
+                text: `<ul>
+              <li>
+                Color Hunt = Palettes de couleur
+              </li>
+              <li>
+                Figma = Pour dessiner une maquette
+              </li>
+            </ul>`               
             },
             {
-                subTitle: "Arborescence : structurer le site",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
+                subTitle: "Identité Visuelle",
+                text: `L'identité visuelle est l'ensemble des éléments graphiques qui caractérisent une marque, une entreprise ou un projet. Elle permet à une entité d'être immédiatement reconnue parmi d'autres. Les aspects clés de l'identité visuelle comprennent: <br/><ul>
+              <li>
+                Couleurs = Chaque couleur véhicule une émotion ou une valeur. Par
+                exemple, le bleu peut évoquer la confiance et la stabilité.
+              </li>
+              <li>
+                Formes = Les formes utilisées dans le logo ou les visuels contribuent
+                également à l'identité. Des formes douces peuvent évoquer
+                l'accessibilité, tandis que des formes angulaires peuvent
+                représenter la force.
+              </li>
+            </ul>`               
             },
             {
-                subTitle: "Maquettes",
-                text: "On a choisit de partir sur un ton dark",
-                // Add more properties as needed
+                subTitle: "Charte Graphique",
+                text: `La charte graphique est un document de référence qui décrit les règles d'utilisation des éléments de l'identité visuelle d'une marque. Elle inclut généralement: <br/><ul>
+              <li>
+                Logos: Description des différentes versions du logo et des règles d'utilisation.
+
+              </li>
+              <li>
+                Couleurs de la Campagne: Palette de couleurs principale et secondaire avec des codes spécifiques (comme les codes HEX en web).
+                Typographies: Polices de caractères utilisées pour le texte, avec des directives sur la manière de les utiliser.
+              </li>
+            </ul>`
             },
-            // More subparts can be added here
+            {
+                subTitle: "Arborescence",
+                text: `L'arborescence est la structure hiérarchique d'un site web. Elle décrit comment les différentes pages sont liées entre elles et organise l'information de manière logique. 
+                <br/>
+                Une bonne arborescence aide les utilisateurs à naviguer facilement sur le site et à trouver rapidement ce qu'ils cherchent.`, 
+                image: "../img.video/arbo.png"
+            },
+
+            {
+                subTitle: "Wireframe",
+                text: `Un wireframe est un schéma basique qui représente la structure d'une page web ou d'une application. Il s'agit d'une étape importante dans la conception d'un site car elle permet de définir l'agencement des éléments sans se concentrer sur le design esthétique. Les wireframes sont généralement en noir et blanc, sans images ou couleurs.`, 
+                image: "../img.video/wireframe.png"
+            },
+
+            {
+                subTitle: "Maquette",
+                text: `La maquette est une représentation visuelle plus détaillée d'une page web. Contrairement au wireframe, elle inclut des éléments de design tels que les couleurs, les images, et les typographies. La maquette donne une idée précise de ce à quoi ressemblera le site une fois développé.`, 
+                image: "../img.video/fullMaquete.png"
+            },
         ]
     },
 

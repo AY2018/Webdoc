@@ -1,1 +1,14 @@
-When the newMessagesAfterReturn messages are all displayed after the user clicks, I want to add a class of .end to a section with an id of whatsappBot
+Développe chaque aspet de cette liste qui vient de notes prises lors d'un cours pour débutant. 
+
+:
+
+icone Notes
+Notes Créa Num
+
+    Identité visuelle = Le moyen par lequel on va nous reconnaitre (les couleurs/les formes)
+    Charte graphique = Document qui contient le logos, les couleurs de la campagne, les typographies…
+    Arborescence = Parcours du site, les différentes pages, niveau du site
+    Wireframe = Comme la maquette, mais sans détails (on ne met pas de couleur, de style, de texte). C’est juste pour avoir une idée de la structure du résultat final.
+    Maquette = Ce à quoi va ressembler le site. Nécessaire pour le développement web
+    Pour construire une maquette = Figma (Gratuit)
+

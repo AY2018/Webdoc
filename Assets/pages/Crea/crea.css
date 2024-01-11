@@ -77,6 +77,17 @@
 }
 
 /* Conversation */
+
+#conv::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+#conv::-webkit-scrollbar-thumb {
+    background-color: #ffffff30;
+    border-radius: 10px;
+}
+
 #conv{
     overflow-y: auto;
     scrollbar-color: #ffffff30 transparent;
@@ -139,6 +150,7 @@
 
 .conv li img{
     width: 100%;
+    border-radius: 5px;
 }
 
 .conv .firstMine::before{
@@ -218,6 +230,7 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     width: 100% !important;
 }
 
+
 .newContainer .whatsappContainer{
     width: 33%;
 }
@@ -235,7 +248,18 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     height: 100%;
     gap: 20px;
     overflow-y: auto;
+}
 
+
+
+.exerciceContainer::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+.exerciceContainer::-webkit-scrollbar-thumb {
+    background-color: #00000030;
+    border-radius: 10px;
 }
 
 /* Palette choices */
@@ -378,4 +402,7 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     color: white;
     font-size: 1.5rem;
     gap: 20px;
+    border-radius: 5px;
+        font-family: 'Quantico' !important;
+        
 }
