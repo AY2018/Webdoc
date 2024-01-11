@@ -1,21 +1,38 @@
+
+
 const newMessagesAfterReturn = [
-  { text: "C’est toi qui a choisi ces couleurs ?", sender: "mine", delay: 500, note: "Test Première note" },
-  { text: "Oui, je me suis servi de Color Hunt. C’est un site qui répertorie des palettes. J’ai parcouru le site ai choisi mes palettes. J’hésitai un peu entre les trois palettes mais là je suis sûr de partir sur celle avec le rouge et noir.", sender: "other", delay: 500 },
-  { text: "T’utilises d’autres sites pour les polices ?", sender: "mine", delay: 500 },
-  { text: "Google Font et Adobe Font seront tes meilleurs amis ! Même si passer plusieurs minutes devant un écran à chercher une typo parmis des centaines, une fois que tu trouves la bonne typo, sa fait toute la différence. Tiens je viens de finir le logo et j’ai choisi les typographies.", sender: "other", delay: 500 },
-  { text: "Donc t’as commencé à faire le design du site ?", sender: "mine", delay: 500, note: "Test Deuxième note" },
-  { text: "Oui, j’ai commencé la maquette. C’est aussi une partie de la créa. La création d’une maquette se divise en 3 parties : D’abord, on commence par une arborescence. C’est un parcours de ton site. Ça ressemble à ça :", sender: "other", delay: 500 },
-  { text: "<img src='../../img.video/crea1.png' alt='Arborescence' />", sender: "other", delay: 500 },
-  { text: "Ensuite, tu fais des wireframes. Cela permet de voir comment seront structurées les pages du site web. C’est très schématique, on n’utilise ni les couleurs ni les typographies de la campagne. Ça ressemble à ça :", sender: "other", delay: 500 },
-  { text: "<img src='../../img.video/crea1.png' alt='Wireframe' />", sender: "other", delay: 500 },
-  { text: "ENFIN, tu fais enfin ta maquette. Tu reprends tes wireframes mais tu remplaces le contenu schématique par les vraies contenues : les vraies photos, les vraies couleurs, les vraies typographies… Voilà à quoi ça ressemble :", sender: "other", delay: 500 },
-  { text: "<img src='../../img.video/crea1.png' alt='Mockup' />", sender: "other", delay: 500 },
-  { text: "T’as fait ça avec quoi ?", sender: "mine", delay: 500 },
-  { text: "Figma ! Je te le recommande vivement. En plus, c’est gratuit.", sender: "other", delay: 500 }, 
-  { text: "Sur ce, je te laisse. Nicolas m'a dit qu'il te contactera très bientôt pour la partie Audiovisuelle", sender: "other", delay: 500 }, 
-   {text: `<a onclick="completeStage(4)" href="../ecampus.html">Merci beaucoup, j'ai hâte de commencer l'audiovisuel <i class="fa-solid fa-angles-right"></i></a>`,
-  sender: "mine",
-  delay: 500 }  
+  { text: "Je suis d’accord!", sender: "other", firstOther: true, delay: 1000 },
+  { text: "C’est toi qui a choisi ces couleurs?", sender: "mine", firstMine: true, delay: 1000 },
+  { text: "Oui, je me suis servi de Color Hunt. C’est un site qui répertorie des palettes. J’ai parcouru le site et je m’en suis inspiré pour créer ces 3 palettes.", sender: "other", delay: 1000 },
+  { text: "J’hésitai un peu entre les trois palettes mais là je suis sûr de partir sur celle avec le rouge et noir. Merci 👍", sender: "other", delay: 1000 },
+  { text: "Y a pas de quoi 😉", sender: "mine", delay: 1000 },
+  { text: "De ce que j’ai vu, t'as donc déjà commencé à faire le design du site?", sender: "mine", delay: 1000 },
+  { text: "Oui, j’ai commencé la maquette. Bon ce n’est pas un site niveau professionnel parce que j’ai découvert tout ca cette année en Création Numérique, mais je suis assez fière de ce début de maquette.", sender: "other", delay: 1000 },
+  { text: "Un petit aperçu, en appliquant la palette que tu as sélectionnés tout à l'heure :", sender: "other", delay: 1000 },
+  {text: "<img src='../../img.video/fullMaquete.png' alt='Image de la maquette du site' />", sender: "other", delay: 100 },
+  { text: "Mais c’est incroyable! Donc on peut apprendre à faire ça dès la première année?", sender: "mine", delay: 4000 },
+  { text: "Oui! J’en profite pour t’expliquer comment ça marche:", sender: "other", delay: 1000 },
+  { text: "La création d’une maquette se divise en 3 parties:", sender: "other", delay: 1000 },
+  { text: "D’abord, on commence par une arborescence = un parcours de ton site. Ça ressemble à ça :", sender: "other", note: "Arborescence = Parcours du site, les différentes pages, niveau du site", delay: 1000 },
+  {text: "<img src='../../img.video/arbo.png' alt='Schéma qui explique une Arborescence' />", sender: "other", delay: 100 },
+  { text: "Donc c’est une liste de toutes les pages du site", sender: "mine", delay: 4000 },
+  { text: "A peu près. Il faut aussi prendre en compte la navigation (quelle page mène vers quelle page. Un exemple simple : tu ne peux accéder à la page d’un produit qu’après être allé sur la page catalogue d’un site en ligne)", sender: "other", delay: 1000 },
+  { text: "Ok je comprends", sender: "mine", delay: 1000 },
+  { text: "Ensuite, tu fais des wireframes.", sender: "other", delay: 1000 },
+  { text: "Ca permet de voir comment seront structurées les pages du site web. C’est très schématique, on n’utilise ni les couleurs ni les typographies de la campagne.", sender: "other", note: "Wireframe = Comme la maquette, mais sans détails (on ne met pas de couleur, de style, de texte). C’est juste pour avoir une idée de la structure du résultat final.", delay: 1000 },
+  {text: "<img src='../../img.video/wireframe.png' alt='Schéma qui explique une Wireframe' />", sender: "other", delay: 100 },
+  { text: "C’est une maquette mais sans styles", sender: "mine", delay: 4000 },
+  { text: "Exactement! Enfin, tu fais ta maquette. Tu reprends tes wireframes mais tu remplaces le contenu schématique par les vraies contenues : les vraies photos, les vraies couleurs, les vraies typographies…", sender: "other", note: "Maquette = Ce à quoi va ressembler le site. Nécessaire pour le développement web", delay: 1000 },
+  { text: "Une fois la maquette faite, Ayoub pourra développer le site en entier.", sender: "other", delay: 1000 },
+  { text: "Tu l’as fait comment la maquette?", sender: "mine", delay: 1000 },
+  { text: "Figma! Je te le recommande vivement. En plus, c’est gratuit.", sender: "other", note: "Pour construire une maquette = Figma (Gratuit)", delay: 1000 },
+  { text: "C’est cool ca! Donc je peux commencer dès maintenant, de mon côté!", sender: "mine", delay: 1000 },
+  { text: "C’est le bon état d’esprit à avoir! Sur ce, je te laisse je vais aller dormir.", sender: "other", delay: 1000 },
+  { text: "D'ailleurs, Nicolas m’a dit qu’il comptait te contacter dans la soirée", sender: "other", delay: 1000 },
+  { text: "Il t'a parlé de ce qu'on va faire en Audiovisuel?", sender: "other", delay: 1000 },
+  { text: "Ah oui? je n’ai toujours pas reçu de message.", sender: "mine", delay: 1000 },
+  { text: "Merci beaucoup en tout cas! A demain 🫡", sender: "mine", delay: 1000 },
+  { text: "Bonne nuit 😪", sender: "other", delay: 1000 }
 ];
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -26,19 +43,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const validateDiv = document.getElementById('validate');
   let end = false;
 
-   const conversation = [
-  { text: "Salut, c’est Erwan, on passe à la créa ?", sender: "other", firstOther: true, note: "First noooote", delay: 100},
-  { text: "Ok, je te suis !", sender: "mine", firstMine: true, delay: 100 },
-  { text: "Je vais commencer l’identité visuelle de la campagne. La communication visuelle c’est super important.", sender: "other", firstOther: true, delay: 100 },
-  { text: "Par exemple, tu vas à Carrefour. Tu as deux bouteilles d’eau au même prix. Comment tu vas faire ton choix ?.", sender: "other", delay: 100 },
-  { text: "Tu vas choisir la bouteille d’eau qui te plait le plus visuellement parlant.", sender: "other", note: "Deuxième Nooote", delay: 100 },
-  { text: "Ok, comment tu fais pour présenter tout ça ?", sender: "mine", firstMine: true, delay: 100 },
-  { text: "Je fais une charte graphique!", sender: "other", firstOther: true, delay: 100 },
-  { text: "C’est un document qui contient le logos, les couleurs de la campagne, les typographies…", sender: "other", delay: 100 },
-  { text: "D’ailleurs, ça te dit de m’aider ? J’hésite entre 3 palettes de couleurs.", sender: "other", delay: 100 },
-  { text: "Tu penses que laquelle colle le mieux à notre campagne ?", sender: "other", delay: 100 },
-  { text: "<span onclick='startExercice()'>Choix de palettes</span>", sender: "other", delay: 100 },  
+const conversation = [
+  { text: "Salut, c’est Erwan, on passe à la créa?", sender: "other", firstOther: true, delay: 1000 },
+  { text: "Ok, je te suis! On va faire quoi?", sender: "mine", firstMine: true, delay: 1000 },
+  { text: "Je vais commencer l’identité visuelle de la campagne.", firstOther: true, sender: "other", delay: 1000 },
+  { text: "La communication visuelle c’est super important!", sender: "other", delay: 1000 },
+  { text: "Par exemple, si tu vas à Carrefour et que tu as deux bouteilles d’eau au même prix.", sender: "other", delay: 1000 },
+  { text: "Comment tu vas faire ton choix?", sender: "other", delay: 1000 },
+  { text: "Je vais choisir celle qui me plait le plus visuellement non?", firstMine: true, sender: "mine", delay: 1000 },
+  { text: "Exactement, c’est pour ca que c’est très important d’avoir une identité visuelle impactante qui donne l’ambiance de notre campagne",firstOther: true, sender: "other", note: "Identité visuelle = Le moyen par lequel on va nous reconnaitre (les couleurs/les formes)", delay: 1000 },
+  { text: "En parlant d’harcèlement et en ciblant l’harceleur, on doit faire donne une ambiance inquiétante, une ambiance d’alerte…", sender: "other", delay: 1000 },
+  { text: "Ok, comment tu fais pour présenter tout ça?", firstMine: true, sender: "mine", delay: 1000 },
+  { text: "Je fais une charte graphique.", firstOther: true, sender: "other", delay: 1000 },
+  { text: "C’est un document qui contient le logos, les couleurs de la campagne, les typographies…", sender: "other", note: "Charte graphique = Document qui contient le logos, les couleurs de la campagne, les typographies…", delay: 1000 },
+  { text: "D’ailleurs, ça te dit de m’aider? J’hésite entre 3 palettes de couleurs. Tu penses que laquelle colle le mieux à notre campagne?", sender: "other", delay: 1000 },
+  { text: "<span onclick='startExercice()'>Choix de palettes</span>", sender: "other", delay: 1000 }, 
 ];
+
 
 
 
@@ -127,24 +148,24 @@ function addMessagesSequentially(messages, index, returnAfterLastMessage = false
     switch (paletteIndex) {
       case 0: // Palette A
       newMessages = [
-        { text: "Perso, je pense que la A serait bien", sender: "mine", firstMine: true, delay: 100 },
-        { text: "Hmm, Les couleurs ne représentent pas vraiment la gravité de la situation.", sender: "other", firstOther: true, delay: 100 },
-        { text: "Beige et Blanc, c'est très claire, très pure. Or, on vise les harceleurs, il faut quelque chose de plus 'dark'", sender: "other", delay: 100 }
+        { text: "Perso, je pense que la A serait bien", sender: "mine", firstMine: true, delay: 1000 },
+        { text: "Hmm, Les couleurs ne représentent pas vraiment la gravité de la situation.", sender: "other", firstOther: true, delay: 1000 },
+        { text: "Beige et Blanc, c'est très claire, très pure. Or, on vise les harceleurs, il faut quelque chose de plus 'dark'", sender: "other", delay: 1000 }
       ];  
       addMessagesSequentially(newMessages, 0);
         break;
         
       case 1: // Palette B
         newMessages = [
-        {text: "Peut être la B ?", sender: "mine", firstMine: true, delay: 100 }, { text: "Hmm, Le noir me parait correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 100},
-  { text: "Mais je penses que mettre du blan tout cours ici est dommage, on peut ajouter une autre couleur beaucoup plus impactante", sender: "other", firstOther: true, delay: 100}
+        {text: "Peut être la B?", sender: "mine", firstMine: true, delay: 1000 }, { text: "Hmm, Le rouge me parait correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 1000},
+  { text: "Mais je penses que mettre du blan tout cours ici est dommage, on peut ajouter une autre couleur beaucoup plus impactante et en lien avec notre ton grave.", sender: "other", delay: 1000}
       ]; 
       addMessagesSequentially(newMessages, 0);
         break;
       case 2: // Palette C
          newMessages = [
-        {text: "La C me parait pas mal", sender: "mine", firstMine: true, delay: 100 },  { text: "Le noir me parait correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 1000},
-  { text: "Le rouge en plus ajoute un aspet sanguin, qui fait peur et qui peut aussi faire allusion aux victimes qui souffrent. Parfait !", sender: "other", firstOther: true, delay: 1000}, 
+        {text: "La C me parait pas mal", sender: "mine", delay: 1000 },  { text: "Le noir me parait correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 1000},
+  { text: "Le rouge en plus ajoute un aspet sanguin, qui fait peur et qui peut aussi faire allusion aux victimes qui souffrent. Parfait!", sender: "other", firstOther: true, delay: 1000}, 
   
       ]; 
       addMessagesSequentially(newMessages, 0);

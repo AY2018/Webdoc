@@ -14,7 +14,7 @@ const stageBoxes = {
         { title: "Creation Numérique", href: "./Crea/instructions.html", bgColor: "orange", requiredStage: 4 },
         { title: "Pause", href: "./Pause/pause.html", bgColor: "pink", requiredStage: 5 },
         { title: "Audiovisuel", href: "./Audiovisuel/instructions.html", bgColor: "purple", requiredStage: 6 },
-        { title: "Development Web", href: "./Audiovisuel/instructions.html", bgColor: "yellow", requiredStage: 7 }
+        { title: "Development Web", href: "./Developpement/instructions.html", bgColor: "yellow", requiredStage: 7 }
     ],
     8: [
         { title: "SAE Rendu", href: "link-to-sae-rendu.html", bgColor: "cyan" }

@@ -1,0 +1,75 @@
+.comm{
+    overflow: auto;
+    overflow-x: hidden;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Video Container */
+.comm .videoContainer{
+    height: 100%;
+    background-color: violet;
+    width: 70%;
+    padding: 40px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+@keyframes Grow {
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+video{
+    width: 90%;
+    /* transform: scale(0.1);
+    opacity: 0;
+    display: none;
+    animation: Grow 0.5s ease-in-out forwards; */
+}
+
+
+.videoChoices{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.videoChoices .row{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 200px;
+}
+
+.videoChoices figure{
+    width: 50%;
+    cursor: pointer;
+}
+
+.videoChoices figure img{
+    height: 100%;
+}
+
+.videoChoices .row2{
+    height: 400px;
+}
+
+
+.row section{
+    width: 50%;
+}
+
+
+
+

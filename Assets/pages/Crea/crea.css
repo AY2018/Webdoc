@@ -1,7 +1,13 @@
+
+
+
+
+
+
 .crea{
     overflow: auto;
     overflow-x: hidden;
-    background-color: red;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +17,6 @@
 /* Video Container */
 .crea .creaContainer{
     height: 100%;
-    background-color: khaki;
     width: 70%;
     align-items: center;
     display: flex;
@@ -74,6 +79,7 @@
 /* Conversation */
 #conv{
     overflow-y: auto;
+    scrollbar-color: #ffffff30 transparent;
     height: 100%;
     width: 100%;
     padding: 10px 20px;
@@ -128,6 +134,7 @@
     position: relative;
     text-wrap: wrap;
     max-width: 70%;
+    font-size: 1.1rem;
 }
 
 .conv li img{
@@ -222,10 +229,13 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
 .newContainer .exerciceContainer{
     display: flex;
     flex-direction: column;
+    scrollbar-color: #00000030 transparent;
     padding: 10px 5%;
     width: 67%;
     height: 100%;
     gap: 20px;
+    overflow-y: auto;
+
 }
 
 /* Palette choices */
@@ -275,47 +285,47 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
 }
 
 .palette1 span:nth-child(1){
-    background-color: green;
+    background-color: #C8AD7F;
     border-radius: 1px solid black;
 }
 .palette1 span:nth-child(2){
-    background-color: red;
+    background-color: white;
     border-radius: 1px solid black;
 }
 .palette1 span:nth-child(3){
-    background-color: purple;
+    background-color: black;
     border-radius: 1px solid black;
 }
 
 
 .palette2 span:nth-child(1) {
-    background-color: yellow;
+    background-color: #D30909;
     border-radius: 1px solid black;
 }
 
 .palette2 span:nth-child(2) {
-    background-color: red;
+    background-color: white;
     border-radius: 1px solid black;
 }
 
 .palette2 span:nth-child(3) {
-    background-color: orange;
+    background-color: black;
     border-radius: 1px solid black;
 }
 
 
 .palette3 span:nth-child(1) {
-    background-color: gray;
+    background-color: #D30909;
     border-radius: 1px solid black;
 }
 
 .palette3 span:nth-child(2) {
-    background-color: white;
+    background-color: #303639;
     border-radius: 1px solid black;
 }
 
 .palette3 span:nth-child(3) {
-    background-color: cyan;
+    background-color: white;
     border-radius: 1px solid black;
 }
 
@@ -329,7 +339,7 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     width: fit-content;
     border-radius: 10px;
     margin-inline: auto;
-    background-color: #18365e;
+    background-color: #015c4b;
     transition: 0.2s ease;
 }
 
