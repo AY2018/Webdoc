@@ -1,3 +1,19 @@
+#loader {
+    background-image: url(../../img.video/audiovis.jpg);
+    animation: Disapear 1.5s ease forwards 5s;
+}
+
+#loader a{
+    text-decoration: underline;
+    color: #4D2465;
+}
+
+.loadingBar::after {
+    animation: loadBar 5s ease-in-out forwards;
+}
+
+
+
 .crea{
     overflow: auto;
     overflow-x: hidden;
@@ -54,7 +70,7 @@
 }
 
 .whatsappHeading img{
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     height: 100%;
     border-radius: 50%;
@@ -72,12 +88,22 @@
 }
 
 /* Conversation */
+#conv::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+#conv::-webkit-scrollbar-thumb {
+    background-color: #ffffff30;
+    border-radius: 10px;
+}
+
 #conv{
     overflow-y: auto;
+    scrollbar-color: #ffffff30 transparent;
     height: 100%;
     width: 100%;
     padding: 10px 20px;
-    background-color: #ff000090;
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -185,11 +211,16 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
 #choices{
     display: flex;
     position: absolute;
-    top: -50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 99;
+    height: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
+    background-color: #2a3942;
+    width: 100%;
     display: none;
 }
 
@@ -200,11 +231,16 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
 }
 
 #choices div{
-    background-color: #131b1f;
+    background-color: rgb(161, 161, 1);
+    width: 33%;
+    height: 100%;
     padding: 5px 20px;
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     opacity: 0;
     transition: filter 0.2s ease-in;
     animation: appear 0.3s ease-in forwards;
@@ -219,7 +255,7 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
 }
 
 #choices div:hover{
-    filter: brightness(1.5);
+    filter: brightness(0.9);
 }
 
 
@@ -261,7 +297,8 @@ clip-path: polygon(100% 100%, 100% 0, 0 0);}
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: purple;
+    background-color: #4D2465;
+    font-family: 'Electrolize', sans-serif;
     height: 100%;
     color: white;
     font-size: 1.5rem;

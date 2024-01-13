@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,15 +16,24 @@
     <title>Brainstorming</title>
   </head>
   <body class="homePageBody">
+    <article id="loader">
+      <section class="loaderContent">
+        <h2>Le savais-tu ?</h2>
+        <p>La formation MMI était initialement un DUT, donc un diplôme de 2 ans. C'est maintenant une formation de 3 ans.</p>
+        <div class="loadingBar"></div>
+      </section>
+      
+</article>
     <header>
       <nav>
         <div class="nav_top">
           <a href="../ecampus.html" class="current"
             ><img src="../../img.video/logoEcampus.svg" alt=""
           /></a>
-          <a href="../notes.html"
-            ><img src="../../img.video/note-removebg-preview.png" alt=""
-          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
         </div>
         <div class="nav_bottom">
           <a href=""><i class="fa-solid fa-question"></i></a>
@@ -37,6 +46,7 @@
       <article class="ecampusContainer">
         <section class="ecampusHeading">
           <h1>Ayoub - Brainstorming</h1>
+          <h2> La mission = trouver le sujet de notre campagne.</h2>
         </section>
 
         <section class="brainstorming">
@@ -45,15 +55,30 @@
               <audio id="brainAudio" controls>
                 <source src="../../img.video/brainAudio.mp3" />
               </audio>
-
+              <ul class="bottomConsignes">
+                <li>
+                  <h3>Brainstorming</h3>
+                  <p>Technique de recherche d’idées originales dans une réunion, chacun émettant ses suggestions spontanément</p>
+                </li>
+                <li>
+                  <h3>La mission</h3>
+                  <p>Trouver le sujet de votre campagne</p>
+                </li>
+                <li>
+                  <h3>Le thème assigné</h3>
+                  <p>Diversité dans le numérique.</p>
+                </li>
+              </ul>
               <h2 style="display: none;">Et toi, tu prendrais lequel ?</h2>
+
+              
             </div>
 
             <div class="bottom" id="bottom" style="display: none;">
-              <div class="bottomGallery">
+              <div class="bottomGallery" >
                 <div class="wrapper">
                   <div class="card">
-                    <div class="front">
+                    <div class="front front1">
                       <h3>1. Les femmes dans le numérique</h3>
                     </div>
                     <div class="back">
@@ -67,12 +92,12 @@
 
                 <div class="wrapper" id="correct">
                   <div class="card">
-                    <div class="front">
+                    <div class="front front2">
                       <h3>
                         2. Le harcèlement – en visant l’harceleur directement
                       </h3>
                     </div>
-                    <div class="back">
+                    <div class="back back2">
                       <p>
                         C’est vrai que ce sujet, sous cet angle. C’est
                         authentique. On te suit !
@@ -83,7 +108,7 @@
 
                 <div class="wrapper">
                   <div class="card">
-                    <div class="front">
+                    <div class="front front3">
                       <h3>3. L’accessibilité dans le numérique</h3>
                     </div>
                     <div class="back">
@@ -96,7 +121,7 @@
 
                 <div class="wrapper">
                   <div class="card">
-                    <div class="front">
+                    <div class="front front4">
                       <h3>4. La domination occidentale</h3>
                     </div>
                     <div class="back">

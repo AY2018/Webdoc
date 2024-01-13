@@ -1,14 +1,15 @@
-Développe chaque aspet de cette liste qui vient de notes prises lors d'un cours pour débutant. 
+<article id="loader">
+    <section class="loaderContent">
+      <h2>Le savais-tu ?</h2>
+      <p>
+        Envie d’en savoir plus sur ce que font les étudiants en MMI ? Ce site
+        regroupe les portfolios de plusieurs élèves :
+        <a href="https://portfoliommi.fr" target="_blank">portfoliommi.fr</a>
+      </p>
+      <div class="loadingBar"></div>
+    </section>
+  </article>
 
-:
+bugs to fix : 
 
-icone Notes
-Notes Créa Num
-
-    Identité visuelle = Le moyen par lequel on va nous reconnaitre (les couleurs/les formes)
-    Charte graphique = Document qui contient le logos, les couleurs de la campagne, les typographies…
-    Arborescence = Parcours du site, les différentes pages, niveau du site
-    Wireframe = Comme la maquette, mais sans détails (on ne met pas de couleur, de style, de texte). C’est juste pour avoir une idée de la structure du résultat final.
-    Maquette = Ce à quoi va ressembler le site. Nécessaire pour le développement web
-    Pour construire une maquette = Figma (Gratuit)
-
+in audiovisu and crea : when user can pick a choice, don't let him pick another one after he picked one until all of the messages load . 

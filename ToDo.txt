@@ -1,9 +1,6 @@
+Améliorer l'email 
 
 LOADER
-
-ECAMPUS
-- Add images of use in the ecampus card for our section
-
 
 NOTES : 
 - Contenu des notes à mettre

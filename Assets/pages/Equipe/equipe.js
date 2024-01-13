@@ -5,28 +5,28 @@ const teamMembers = [
     preference: 'Communication',
     path: 'Bac scientifique - Prépa littéraire',
     quote: 'J’aime les projets vivants !',
-    imageUrl: '../../img.video/marie.png'
+    imageUrl: '../../img.video/marie-removebg-preview.png'
   },
   {
     name: 'Ayoub',
     preference: 'Développement Web',
     path: 'Bac S spé Maths – 2 ans en Management en Angleterre',
     quote: 'L’université, ce n’est pas les cours, c’est les personnes que tu côtois au quotidien',
-    imageUrl: '../../img.video/ayoub.png'
+    imageUrl: '../../img.video/ayoub-removebg-preview.png'
   },
   {
     name: 'Nicolas',
     preference: 'Audiovisuel',
     path: 'BAC STI2D',
     quote: 'Je savais pas qu’il fallait mettre une citation',
-    imageUrl: '../../img.video/nicolas.png'
+    imageUrl: '../../img.video/nico-removebg-preview.png'
   },
   {
     name: 'Erwan',
     preference: 'Création numérique',
     path: 'BAC STI2D - BUT Informatique',
     quote: 'J’ai mangé mwahahahah',
-    imageUrl: '../../img.video/erwan.png'
+    imageUrl: '../../img.video/erwan-removebg-preview.png'
   }
 ];
 

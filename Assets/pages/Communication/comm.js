@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function() {
   video.addEventListener('ended', handleOtherVideoEnded);
 
    function handleOtherVideoEnded() {
-    videoChoices.style.display = 'block';
+    videoChoices.style.display = 'flex';
     video.style.display = 'none';
   }
 
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
 window.playVideo = function(filename) {
   // Function to handle video ending for marie4.mp4
     function handleMarie4Ended() {
-      nextStageLink.style.display = 'block';
+      nextStageLink.style.display = 'flex';
     }
 
     // Remove any previous 'ended' event listeners
@@ -64,7 +64,7 @@ window.playVideo = function(filename) {
     video.load();
     video.play();
     videoChoices.style.display = 'none';
-    video.style.display = 'block';
+    video.style.display = 'flex';
 
   if (filename === 'marie4.mp4') {
     // Additional logic for "marie4.mp4"

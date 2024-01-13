@@ -17,17 +17,26 @@
     <title>Création Numérique</title>
   </head>
   <body class="homePageBody">
+    <article id="loader">
+      <section class="loaderContent">
+        <h2>Le savais-tu ?</h2>
+        <p>
+          Le BUT est évalué par 5 compétences qui regroupent plusieurs matières
+          : Comprendre, Concevoir, Exprimer, Développer, Entreprendre
+        </p>
+        <div class="loadingBar"></div>
+      </section>
+    </article>
     <header>
       <nav>
         <div class="nav_top">
           <a href="../ecampus.html" class="current"
             ><img src="../../img.video/logoEcampus.svg" alt="icone Ecampus"
           /></a>
-          <a href="../notes.html"
-            ><img
-              src="../../img.video/note-removebg-preview.png"
-              alt="icone Notes"
-          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
         </div>
         <div class="nav_bottom">
           <a href=""><i class="fa-solid fa-question"></i></a>
@@ -40,6 +49,9 @@
       <article class="ecampusContainer">
         <section class="ecampusHeading">
           <h1>Ayoub - Création Numérique</h1>
+          <h2>
+            La mission : Faire une création audiovisuelle pour la campagne
+          </h2>
         </section>
 
         <section class="crea">

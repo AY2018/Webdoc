@@ -1,4 +1,6 @@
-
+#loader {
+    background-image: url(../../img.video/team.jpg);
+}
 .equipe{
 padding: 20px 0;
     overflow: auto;
@@ -16,10 +18,12 @@ padding: 20px 0;
     justify-content: center;
     gap: 30px;
     align-items: center;
+    width: 75%;
 }
 
 .display img{
-    width: 250px;
+    height: 100%;
+    width: 350px;
 }
 
 h2{
@@ -33,6 +37,7 @@ img{
     flex-direction: column;
     text-align: center;
     gap: 40px;
+    width: 500px;
 }
 
 .teamInfo .row p{
@@ -59,6 +64,9 @@ img{
     background-color: #4d2465cd;
 }
 
+.name{
+    font-size: 2rem;
+}
 
 .equipe a {
     font-size: 1.5rem;
@@ -74,4 +82,9 @@ img{
 
 .equipe a:hover {
     transform: scale(0.98);
+}
+
+.citation{
+    font-style: italic;
+    font-size: 1.2rem;
 }

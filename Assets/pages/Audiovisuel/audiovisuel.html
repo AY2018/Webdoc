@@ -16,18 +16,28 @@
     <link rel="stylesheet" href="./audio.css" />
     <title>Audiovisuel</title>
   </head>
+
   <body class="homePageBody">
+    <article id="loader">
+      <section class="loaderContent">
+        <h2>Le savais-tu ?</h2>
+        <p>
+          Il existe un concours MMI nommé le festival MMI qui se déroule en fin
+          d’année où les étudiants peuvent postuler.
+        </p>
+        <div class="loadingBar"></div>
+      </section>
+    </article>
     <header>
       <nav>
         <div class="nav_top">
           <a href="../ecampus.html" class="current"
             ><img src="../../img.video/logoEcampus.svg" alt="icone Ecampus"
           /></a>
-          <a href="../notes.html"
-            ><img
-              src="../../img.video/note-removebg-preview.png"
-              alt="icone Notes"
-          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
         </div>
         <div class="nav_bottom">
           <a href=""><i class="fa-solid fa-question"></i></a>
@@ -40,6 +50,7 @@
       <article class="ecampusContainer">
         <section class="ecampusHeading">
           <h1>Ayoub - Audiovisuel</h1>
+          <h2>La mission : Créer une vidéo pour la campagne</h2>
         </section>
 
         <section class="crea">
@@ -50,7 +61,7 @@
               <div class="whatsappHeading">
                 <figure>
                   <img
-                    src="../../img.video/nico.jpeg"
+                    src="../../img.video/nico.jpg"
                     alt="Photo de profil d'Erwan"
                   />
                 </figure>
@@ -73,9 +84,9 @@
               <!-- Whatsapp Bottom-->
               <div class="whatsappBot" id="whatsappBot">
                 <div id="choices">
-                  <div class="choice1">Une caméra normale</div>
+                  <div class="choice1">Une caméra 4K</div>
                   <div class="choice2">Un iPhone 13</div>
-                  <div class="choice3">Une caméra PK-05</div>
+                  <div class="choice3">Une Caméra stabilisée</div>
                 </div>
                 <div class="messageSendContainer">
                   <p id="messageBarText">Ecrire un message</p>

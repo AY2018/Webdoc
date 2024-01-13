@@ -1,5 +1,7 @@
 /* 18365e */
-
+#loader {
+    background-image: url(../../img.video/brief.jpg);
+}
 .ecampusContainer .brief{
     padding: 20px 100px;
     overflow: auto;

@@ -10,12 +10,12 @@ const stageBoxes = {
         { title: "Brainstorming", href: "./Brainstorming/instructions.html", backgroundImage: "../img.video/brainstorming.jpg"}
     ],
     3: [
-        { title: "Communication", href: "./Communication/instructions.html", backgroundImage: "../img.video/comm.jpg", requiredStage: 3, images: ["../img.video/marie.jpg"] },
+        { title: "Communication", href: "./Communication/comm.html", backgroundImage: "../img.video/comm.jpg", requiredStage: 3, images: ["../img.video/marie.jpg"] },
         
-        { title: "Creation Numérique", href: "./Crea/instructions.html", backgroundImage: "../img.video/crea.jpg", images: ["../img.video/erwan.jpg"], requiredStage: 4 },
+        { title: "Creation Numérique", href: "./Crea/crea.html", backgroundImage: "../img.video/crea.jpg", images: ["../img.video/erwan.jpg"], requiredStage: 4 },
         { title: "Pause", href: "./Pause/pause.html", backgroundImage: "../img.video/pause.jpg", requiredStage: 5 },
-        { title: "Audiovisuel", href: "./Audiovisuel/instructions.html", backgroundImage: "../img.video/audiovis.jpg", requiredStage: 6, images: ["../img.video/nico.jpeg"] },
-        { title: "Development Web", href: "./Developpement/instructions.html", backgroundImage: "../img.video/dev.jpg", images: ["../img.video/nico.jpeg"], requiredStage: 7 }
+        { title: "Audiovisuel", href: "./Audiovisuel/audiovisuel.html", backgroundImage: "../img.video/audiovis.jpg", requiredStage: 6, images: ["../img.video/nico.jpg"] },
+        { title: "Development Web", href: "./Developpement/dev.html", backgroundImage: "../img.video/dev.jpg", requiredStage: 7, images: ["../img.video/ayoub.jpg"] }
     ],
     8: [
         { title: "SAE Rendu", href: "link-to-sae-rendu.html" }

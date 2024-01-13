@@ -159,10 +159,44 @@ const notesData = {
         title: "Audiovisuel",
         content: [
             {
-                subTitle: "Les différents types de caméras",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
-            }
+                subTitle: "Storyboard",
+                text: `<ul>
+  <li>Plan visuel de la vidéo sous forme de dessins.</li>
+  <li>Aide à visualiser et planifier le contenu et le déroulement.</li>
+  <li>Détaille les angles de caméra, mouvements, et actions.</li>
+  <li>Planifie les besoins en casting, décors, et lieux.</li>
+</ul>`, 
+image: "../img.video/storyboardHard.jpg",         
+            },
+
+            {
+                subTitle: "Tournage",
+                text: `<ul>
+  <li>Tournage des scènes avec caméra.</li>
+  <li>Utilisation de caméras, lumières, décors, et acteurs.</li>
+  <li>Mise en scène, mouvements de caméra, et éclairage planifiés.</li>
+  <li>Direction des acteurs et de l'équipe technique pour chaque scène.</li>
+</ul>`               
+            },
+            {
+                subTitle: "Post-Production",
+                text: `<ul>
+  <li>Étape de traitement de la vidéo après le tournage.</li>
+  <li>Ajustement des couleurs, réglage du son.</li>
+  <li>Ajout de voix off, musique, effets sonores, et effets spéciaux.</li>
+  <li>Assemblage des scènes pour former une histoire cohérente.</li>
+</ul>`               
+            },
+
+            {
+                subTitle: "Logiciel de Montage pour la Post-Production",
+                text: `<ul>
+  <li>Outil essentiel dans le processus de post-production.</li>
+  <li>Permet de couper, assembler, et manipuler le matériel filmé.</li>
+  <li>Correction des couleurs, ajout d'effets visuels, synchronisation audio.</li>
+  <li>Exemples : Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve.</li>
+</ul>`               
+            },
         ]
     },
     "Dév web": {

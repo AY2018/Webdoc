@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,15 +16,30 @@
     <title>Equipe</title>
   </head>
   <body class="homePageBody">
+    <article id="loader">
+      <section class="loaderContent">
+        <h2>Le savais-tu ?</h2>
+        <p>
+          Tu peux te spécialiser en 2ème année d'MMI en : 
+          <ul>
+            <li>Développement Web</li>
+            <li>Création Numérique</li>
+            <li>Communication</li>
+          </ul>
+        </p>
+        <div class="loadingBar"></div>
+      </section>
+    </article>
     <header>
       <nav>
         <div class="nav_top">
           <a href="../ecampus.html" class="current"
             ><img src="../../img.video/logoEcampus.svg" alt=""
           /></a>
-          <a href="../notes.html"
-            ><img src="../../img.video/note-removebg-preview.png" alt=""
-          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
         </div>
         <div class="nav_bottom">
           <a href=""><i class="fa-solid fa-question"></i></a>
@@ -42,13 +57,13 @@
         <section class="equipe">
           <div class="display">
             <img
-              src="../../img.video/marie.png"
+              src="../../img.video/marie-removebg-preview.png"
               alt="Photo de Marie"
               id="mainMemberImage"
             />
             <div class="teamInfo">
               <div class="row">
-                <h2>Marie</h2>
+                <h2 class="name">Marie</h2>
               </div>
               <div class="row">
                 <h2>Préférence en MMI</h2>
@@ -75,6 +90,6 @@
     </main>
 
     <script src="../../js/index.js"></script>
-    <script src="../../js/equipe.js"></script>
+    <script src="./equipe.js"></script>
   </body>
 </html>

@@ -87,6 +87,26 @@ header .current{
     background-color: #ffffffeb;
 }
 
+#noteLink{
+    position: relative;
+}
+
+#noteNotif{
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
 main{
     width: 100%;
     position: relative;
@@ -95,3 +115,118 @@ main{
     align-items: center;
     
 }
+
+
+/* Loader */
+
+#loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999999;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../img.video/brainstorming.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 100px;
+        animation: Disapear 1.5s ease forwards 4s;
+}
+@keyframes Disapear {
+    0% {
+        opacity: 1;
+        z-index: 99999;
+    }
+
+    50% {
+        opacity: 0;
+        z-index: 99999;
+    }
+
+    100%{
+        z-index: -99;
+        opacity: 0;
+    }
+}
+
+.loaderContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffffd3;
+    width: 50%;
+    height: fit-content;
+    justify-content: space-between;
+    padding: 120px 50px;
+    gap: 40px;
+}
+
+.loaderContent ul li{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.loaderContent div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.loaderContent h2{
+    color: black;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.loaderContent p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.loadingBar{
+    width: 75%;
+    height: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.loadingBar::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 0%;
+    height: 100%;
+    animation: loadBar 4s ease-in-out forwards;
+}
+
+@keyframes loadBar {
+    0%{
+        width: 0%;
+    }
+    33%{
+        width: 40%;
+    }
+        66% {
+            width: 55%;
+        }
+
+        90% {
+            width: 70%;
+        }
+
+                100% {
+                    width: 100%;
+                }
+}
+

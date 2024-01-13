@@ -13,21 +13,32 @@
     <link rel="stylesheet" href="../../css/main.css" />
     <link rel="stylesheet" href="../../css/ecampus.css" />
     <link rel="stylesheet" href="../../css/pageNotes.css" />
-    <link rel="stylesheet" href="./comm.css" />
+    <link rel="stylesheet" href="./dev.css" />
     <title>Communication</title>
   </head>
   <body class="homePageBody">
+    <article id="loader">
+      <section class="loaderContent">
+        <h2>Le savais-tu ?</h2>
+        <p>
+          Envie d’en savoir plus sur ce que font les étudiants en MMI ? Ce site
+          regroupe les portfolios de plusieurs élèves :
+          <a href="https://portfoliommi.fr" target="_blank">portfoliommi.fr</a>
+        </p>
+        <div class="loadingBar"></div>
+      </section>
+    </article>
+
     <header>
       <nav>
         <div class="nav_top">
           <a href="../ecampus.html" class="current"
             ><img src="../../img.video/logoEcampus.svg" alt="icone Ecampus"
           /></a>
-          <a href="../notes.html"
-            ><img
-              src="../../img.video/note-removebg-preview.png"
-              alt="icone Notes"
-          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
         </div>
         <div class="nav_bottom">
           <a href=""><i class="fa-solid fa-question"></i></a>
@@ -39,7 +50,8 @@
     <main>
       <article class="ecampusContainer">
         <section class="ecampusHeading">
-          <h1>Ayoub - Communication</h1>
+          <h1>Ayoub - Développement web</h1>
+          <h2>La mission : Créer un site web pour la campagne</h2>
         </section>
 
         <section class="comm">
@@ -48,40 +60,8 @@
             <video id="commVideo" controls>
               <source src="../../img.video/marie1.mp4" type="video/mp4" />
             </video>
-            <!-- Video Choices-->
-            <div class="videoChoices" style="display: none">
-              <div class="row">
-                <figure onclick="playVideo('marie4.mp4')">
-                  <img src="../../img.video/choice2.png" alt="" />
-                </figure>
 
-                <section>
-                  <h2>Consignes</h2>
-                  <p>Quel est le meilleur choix selon toi ?</p>
-                </section>
-              </div>
-              <div class="row row2">
-                <figure class="contain" onclick="playVideo('marie2.mp4')">
-                  <img src="../../img.video/choice1.jpg" alt="" />
-                </figure>
-
-                <figure>
-                  <img
-                    src="../../img.video/choice3.jpg"
-                    alt=""
-                    onclick="playVideo('marie3.mp4')"
-                  />
-                </figure>
-              </div>
-            </div>
-            <a
-              href="../ecampus.html"
-              onclick="completeStage(3)"
-              style="display: none"
-              class="finalBtn"
-              id="nextStageLink"
-              >Lire le message d'Erwan</a
-            >
+            <button id="nextStageBtn">Commencer l'activité</button>
           </div>
 
           <!-- Notes Liste -->
@@ -101,6 +81,6 @@
     </main>
 
     <script src="../../js/index.js"></script>
-    <script src="./comm.js"></script>
+    <script src="./dev.js"></script>
   </body>
 </html>

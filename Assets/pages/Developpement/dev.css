@@ -1,7 +1,10 @@
+#loader {
+    background-image: url(../../img.video/dev.jpg);
+}
+
 .comm{
     overflow: auto;
     overflow-x: hidden;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +14,6 @@
 /* Video Container */
 .comm .videoContainer{
     height: 100%;
-    background-color: violet;
     width: 70%;
     padding: 40px 15px;
     display: flex;
@@ -71,5 +73,37 @@ video{
 }
 
 
+#nextStageBtn{
+    display: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #4D2465;
+        font-family: 'Electrolize', sans-serif;
+        padding: 16px 32px;
+        font-size: 1.5rem;
+        color: white;
+}
 
 
+.end a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #4D2465;
+    font-family: 'Electrolize', sans-serif;
+    height: 100%;
+    color: white;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+/* second stage */
+
+.ecampusContainer{
+    position: relative;
+}
+
+.slideEcampus{
+    position: absolute;
+}
