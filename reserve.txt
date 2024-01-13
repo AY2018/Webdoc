@@ -1,7 +1,20 @@
-addGuide1() sets the display of the element with an id of #ecampusGuide to flex and adds a class of .Guide1 to the item with an id of #ecampusContainer. 
 
-removeGuide1AddGuid2() removes Guide1 and adds Guide 2 instead. 
 
-removeGuide2AddGuid3 removes Guide2 and adds Guide 3 instead. 
+Les SAE plongent les étudiants dans des mises en situation professionnelles, simulant des défis et des projets réels du monde du travail.
+Application directe et concrète des connaissances théoriques acquises en classe à des projets réels ou simulés.
+Permet de mieux comprendre l'application des concepts appris dans un contexte pratique.
 
-removeLastClass() removes Guide 3 and sets the display of the element with an id of #ecampusGuide to none
+Projets Multidisciplinaires
+
+
+
+
+
+
+
+
+
+
+
+
+

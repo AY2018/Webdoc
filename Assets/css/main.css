@@ -63,7 +63,7 @@ header nav div{
     gap: 10px;
 }
 
-header nav div a {
+header nav div a, header .divBtn {
     width: 100%;
     padding:  5px 10px;
     font-size: 2rem;
@@ -78,7 +78,8 @@ header nav .nav_bottom{
 }
 
 
-header nav a:hover {
+
+header nav a:hover, header .divBtn:hover {
     background-color: #00000090;
     color: white;
 }

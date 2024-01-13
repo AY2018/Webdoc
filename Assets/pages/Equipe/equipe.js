@@ -25,7 +25,7 @@ const teamMembers = [
     name: 'Erwan',
     preference: 'Création numérique',
     path: 'BAC STI2D - BUT Informatique',
-    quote: 'J’ai mangé mwahahahah',
+    quote: 'Suis tes propres règles',
     imageUrl: '../../img.video/erwan-removebg-preview.png'
   }
 ];

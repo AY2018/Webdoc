@@ -1,5 +1,5 @@
 .notif {
-    width: 400px;
+    width: 600px;
     border-radius: 10px;
     background-color: #00000090;
     display: flex;
@@ -47,7 +47,7 @@
 }
 
 .notif img {
-    width: 50px;
+    width: 70px;
 }
 
 .notif a {

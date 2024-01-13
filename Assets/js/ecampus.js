@@ -7,7 +7,7 @@ const stageBoxes = {
         { title: "Equipe", href: "./Equipe/equipe.html", backgroundImage: "../img.video/team.jpg"}
     ],
     2: [
-        { title: "Brainstorming", href: "./Brainstorming/instructions.html", backgroundImage: "../img.video/brainstorming.jpg"}
+        { title: "Brainstorming", href: "./Brainstorming/brainstorming.html", backgroundImage: "../img.video/brainstorming.jpg"}
     ],
     3: [
         { title: "Communication", href: "./Communication/comm.html", backgroundImage: "../img.video/comm.jpg", requiredStage: 3, images: ["../img.video/marie.jpg"] },
