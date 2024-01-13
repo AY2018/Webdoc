@@ -1,10 +1,14 @@
 Améliorer l'email 
 
-LOADER
+LOADER : 
+- In last loader, tell them about how the plan was logic : on ne peut pas commencer la créa sans la comm. On ne peut pas faire le dev sans la crea. La creation numérique se fera plus tard 
 
 NOTES : 
 - Contenu des notes à mettre
 - Ajouter la notification au fur et à mesure. 
+
+
+
 
 INSTRUCTIONS : 
 - Améliorer les pages 
@@ -19,6 +23,9 @@ Endroit où il faudra ajoute le prénom :
 - Dans un des messages (partie Crea/Audio) : Les messages sont crées dans les fichiers Js de ces parties.
 - Header de chaque page (partie en violet où y a le titre de l'étape)
 
+bugs to fix : 
+
+in audiovisu and crea : when user can pick a choice, don't let him pick another one after he picked one until all of the messages load . 
 
 
 

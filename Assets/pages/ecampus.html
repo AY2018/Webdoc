@@ -18,7 +18,7 @@
     <header>
       <nav>
         <div class="nav_top">
-          <a href="./ecampus.html" class="current"
+          <a href="./ecampus.html" class="current ecampusBtn"
             ><img src="../img.video/logoEcampus.svg" alt=""
           /></a>
           <a id="noteLink" href="./notes.html"
@@ -27,16 +27,48 @@
           ></a>
         </div>
         <div class="nav_bottom">
-          <a href=""><i class="fa-solid fa-question"></i></a>
+          <div onclick="addGuide1()"><i class="fa-solid fa-question"></i></div>
           <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
         </div>
       </nav>
     </header>
 
     <main>
-      <article class="ecampusContainer">
+      <article class="ecampusContainer" id="ecampusContainer">
         <section class="ecampusHeading">
           <h1>MMI Campus</h1>
+        </section>
+        <section id="ecampusGuide" >
+          <div class="textContainer step1">
+            <p>
+              La plateforme MMI te permettra de naviguer les différentes étapes
+              de la SAE. Chaque étape doit être complétée pour accéder à la
+              suivante. Cette suite est logique et te sera expliquée à la fin de
+              ce webdocumentaire.
+            </p>
+            <button onclick="removeGuide1AddGuid2()">Next Step</button>
+          </div>
+
+          <div class="textContainer step2">
+            <p>
+              Tu as accès à deux interface tout au long de ce projet. 
+              <ul>
+                <li>Ecampus : Premier bouton en haut à gauche de la page. Tu pourras y revenir pour changer de section, si jamais tu veux refaire une section</li>
+                <li>Bloc Note : Deuxième bouton en haut à gauche de la page. Tu y trouveras des notes sur chaque partie qui apparaitront quand tu complète la partie en question. Une notification apparaitra quand une nouvelle note est ajoutée.</li>
+              </ul>
+            </p>
+            <button onclick="removeGuide2AddGuid3()">Suivant</button>
+          </div>
+
+          <div class="textContainer step3">
+            <p>
+              <ul>
+                <li>Le dernier bouton en bas à gauche te permet de te déconnecter de ta session. Ta progression est sauvegardé et tu pourras te reconnecter à la dernière étape que tu n'as pas complété</li>
+                <li>Tu as accès à ce guide en cliquant sur le bouton ? en bas à gauche</li>
+              </ul>
+            </p>
+            <button onclick="removeLastClass()">Fin du guide</button>
+          </div>
         </section>
         <section class="ecampusGallery"></section>
       </article>
@@ -44,5 +76,6 @@
 
     <script src="../js/index.js"></script>
     <script src="../js/ecampus.js"></script>
+    <script src="../js/guide.js"></script>
   </body>
 </html>

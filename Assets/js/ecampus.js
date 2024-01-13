@@ -1,6 +1,6 @@
 const stageBoxes = {
     0: [
-        { title: "Brief", href: "./Brief/brief.html", backgroundImage: "../img.video/brief.jpg" }
+        { title: "Brief", href: "./Brief/brief.html", backgroundImage: "../img.video/brief.jpg", class: "guideBox" }, 
     ],
     1: [
         // New stage goes here
@@ -27,6 +27,11 @@ function createBoxElement(box) {
     const link = document.createElement('a');
     link.href = (!box.requiredStage || box.requiredStage <= stage) ? box.href : "#";
     link.className = (box.requiredStage && box.requiredStage > stage) ? 'unclickable' : '';
+
+    // Apply custom class if it exists
+    if (box.class) {
+        link.classList.add(box.class);
+    }
 
     const topSection = document.createElement('div');
     topSection.className = 'topSection';

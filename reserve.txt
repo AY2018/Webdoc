@@ -1,15 +1,7 @@
-<article id="loader">
-    <section class="loaderContent">
-      <h2>Le savais-tu ?</h2>
-      <p>
-        Envie d’en savoir plus sur ce que font les étudiants en MMI ? Ce site
-        regroupe les portfolios de plusieurs élèves :
-        <a href="https://portfoliommi.fr" target="_blank">portfoliommi.fr</a>
-      </p>
-      <div class="loadingBar"></div>
-    </section>
-  </article>
+addGuide1() sets the display of the element with an id of #ecampusGuide to flex and adds a class of .Guide1 to the item with an id of #ecampusContainer. 
 
-bugs to fix : 
+removeGuide1AddGuid2() removes Guide1 and adds Guide 2 instead. 
 
-in audiovisu and crea : when user can pick a choice, don't let him pick another one after he picked one until all of the messages load . 
+removeGuide2AddGuid3 removes Guide2 and adds Guide 3 instead. 
+
+removeLastClass() removes Guide 3 and sets the display of the element with an id of #ecampusGuide to none

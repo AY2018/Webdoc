@@ -94,3 +94,90 @@
 .ecampusGallery .unclickable:hover{
     transform: scale(1);
 }
+
+#ecampusGuide {
+    position: absolute;
+    height: 90vh;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.937);
+    z-index: 70;
+    display: none;
+}
+
+.textContainer {
+    position: absolute;
+    background-color: #2f2f2f;
+    color: white;
+    
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 1.5rem;
+    
+    display: none;
+    flex-direction: column;
+    gap: 20px;
+        width: 70%;
+        
+}
+
+.textContainer button{
+    border: none;
+    background-color: #4D2465;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    
+}
+
+.textContainer button:hover{
+    filter: brightness(1.5);
+}
+
+
+
+
+/*New Class Name 1 in ecampusContainer*/
+.Guide1 .ecampusGallery .guideBox{
+    z-index: 71;
+    transform: scale(1.1);
+    transition: scale 0.5s ease-in;
+}
+
+.Guide1 .step1{
+    display: flex;
+    top: 30px;
+    left: 39%;
+    width: 50%;
+}
+
+.Guide2 .step2{
+    display: flex;
+    top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.textContainer ul{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.Guide3 .step3 {
+    display: flex;
+    top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.step3 ul{
+    list-style: none;
+}
