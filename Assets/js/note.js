@@ -143,11 +143,12 @@ const notesData = {
                 text: "C'est une technique de recherche d’idées originales dans une réunion, où chacun émet des suggestions spontanément. Cela permet de décider de façon commune quel sera le sujet de notre projet.",
             },
             {
-                subTitle: "Le thème qui nous a été attribiué:",
+                subTitle: "Le thème qui nous a été attribiué",
                 text: "Diversité dans le numérique.",
             },
             {
-                subTitle: "Sujet + Axe = Cyberbullying, mais on compte viser les harceleurs principalement",
+                subTitle: "Sujet + Axe ",
+                text: "Cyberbullying, mais on compte viser les harceleurs principalement."
             },
         ]
     },
@@ -365,25 +366,25 @@ image: "../img.video/storyboardHard.jpg",
                 text: `Un CMS facilite la création de sites web sans nécessiter de compétences approfondies en programmation. Il permet aux utilisateurs de gérer et mettre à jour le contenu du site de manière intuitive sans avoir à écrire de code. Des exemples de CMS populaires incluent WordPress, Joomla et Drupal.`
             },
             {
-                subTitle: "Développeur Front :",
-                text: `Le développeur front-end se concentre sur la création de l'interface utilisateur visible du site. Il travaille avec HTML pour l'architecture, CSS pour le style, et JavaScript pour ajouter de l'interactivité et de la dynamique au site.`
-            },
-            {
-                subTitle: "Développeur Back :",
-                text: `Le développeur back-end est responsable de la partie invisible du site. Cela inclut la gestion des bases de données avec SQL, la logique de serveur avec des langages comme PHP, et la coordination des échanges d'informations entre la base de données et le front-end.`
-            },
-            {
-                subTitle: "Développeur Full-Stack  :",
-                text: `Un développeur full-stack possède des compétences à la fois en front-end et en back-end, ce qui lui permet de travailler sur l'ensemble du développement d'un projet web.`
+                subTitle: "Différents types de développeur",
+                text: `
+                <ul>
+  <li>Le développeur front-end se concentre sur la création de l'interface utilisateur visible du site. Il travaille avec HTML pour l'architecture, CSS pour le style, et JavaScript pour ajouter de l'interactivité et de la dynamique au site.</li>
+  <li>Le développeur back-end est responsable de la partie invisible du site. Cela inclut la gestion des bases de données avec SQL, la logique de serveur avec des langages comme PHP, et la coordination des échanges d'informations entre la base de données et le front-end.</li>
+  <li>Un développeur full-stack possède des compétences à la fois en front-end et en back-end, ce qui lui permet de travailler sur l'ensemble du développement d'un projet web.</li>
+</ul>
+                
+                `
             },
             {
                 subTitle: "Côté Front de notre Site :",
-                text: `La composante front-end du site englobe HTML pour l'architecture structurelle, CSS pour le design et la mise en page, ainsi que JavaScript pour l'ajout de fonctionnalités interactives`
-            },
-            {
-                subTitle: "Côté Back de notre Site :",
-                text: `La partie back-end est responsable de la gestion des données avec SQL, où les informations sont stockées dans une base de données. PHP, quant à lui, est utilisé pour traiter ces données et les envoyer au front-end pour affichage.`
-            },
+                text: ` <ul>
+  <li>Front-end : HTML pour l'architecture structurelle + CSS pour le design et la mise en page + JavaScript pour l'ajout de fonctionnalités interactives</li>
+  <li>Back-end = responsable de la gestion des données avec SQL, où les informations sont stockées dans une base de données. PHP = utilisé pour traiter ces données et les envoyer au front-end pour affichage.</li>
+</ul>
+                
+                `
+            }
         ]
     },
 
@@ -416,23 +417,32 @@ image: "../img.video/storyboardHard.jpg",
         title: "Les conseils d'Erwan",
         content: [
             {
-                subTitle: "En général",
-                text: "Avant de postuler, je te conseille vraiment de bien comprendre le concept de pluridisciplinarité de la formation, car aucune notion ne revient de manière récurrente à apprendre. C'est toujours une évolution constante dans les différents domaines. <br/><br/> Quelque chose qui m'a beaucoup aidé et que je t'encourage à faire aussi, c'est de réaliser beaucoup de projets personnels de ton côté. Ainsi, tu pourras te démarquer des autres étudiants en acquérant des compétences supplémentaires. De plus, tu pourras utiliser ces compétences dans d'autres projets pour les renforcer davantage. <br/><br/> Enfin, je te recommande vivement de faire attention à ton organisation, il y aura certains moments où tu n'aura pas grand choses à faire ou alors les échéances seront dans longtemps et d'autres moments où tu sera complètement débordés. Et le changement de l'un à l'autre peut arriver très vite donc je te conseil vraiment de te donner à fond dans chaque travail dès qu'un prof te le donne pour éviter d'être dépasser quand d'autres projets seront à rendre en même temps. ",
+                subTitle: "En général : ",
+                text: `<ul>
+  <li>Ne pas rester dans son coin : 
+Dans le graphisme, il est important de se mélanger aux autres étudiants et aux professeurs, de partager ses idées et d'apprendre des autres. Cela te permettra de t'ouvrir à de nouvelles perspectives et de te développer en tant qu'artiste.</li>
+  <li>Écouter ce que les autres disent
+Les professeurs et les autres étudiants ont beaucoup à offrir. Ils peuvent partager leurs connaissances, leurs expériences et leurs conseils. Il est important d'écouter attentivement ce qu'ils ont à dire, même si on ne les comprend pas toujours. Si les professeurs sont là devant toi, à t’enseigner un sujet, c’est qu’ils le maîtrisent et qu’ils seront là si tu as besoin d’aide</li>
+</ul>`               
+            },
+            {
+                subTitle: "Pour le graphisme : ",
+                text: `<ul>
+  <li>Apprendre par soi-même :
+Les cours de graphisme ne suffisent pas à couvrir l'ensemble des connaissances et des compétences nécessaires pour pouvoir te développer en tant qu'artiste et également utiles dans ta vie professionnelle. Il est donc important 
+que tu t'intéresses par toi-même aux différents domaines artistiques en dehors des cours, en lisant des livres, 
+des articles ou des blogs, en regardant des vidéos, en visitant des musées et des galeries, etc. </li>
+  <li>Constituer son portfolio dès le début :
+Le portfolio est un outil essentiel pour présenter son travail artistique et te faire remarquer par les professionnels. 
+Il est donc important de le constituer dès le début de tes études, en y intégrant tes travaux personnels réalisés en dehors du scolaire. Cela permettra de montrer ta motivation et ton engagement, et de développer ton propre style.</li>
+  <li>S'inspirer des autres, mais sans copier :
+Regarder ce que font les autres, qu'ils soient élèves ou professionnels, est une excellente source d'inspiration. Cela permet d'apprendre de nouvelles techniques, de découvrir de nouveaux styles et de se motiver. Cependant, il est important de ne pas copier les autres artistes, mais de s'inspirer de leur travail pour créer quelque chose de personnel.</li>
+  <li>Trouver sa propre patte :
+L'un des objectifs du graphisme est de te distinguer des autres. Il est donc important de trouver ta propre patte artistique, ton style propre à toi, ce qui fera de ton travail quelque chose d'unique. Cela peut se faire en explorant différentes techniques et en s'appropriant les influences qui te paraissent importantes.</li>
+</ul>`               
             },
 
-            {
-                subTitle: "Pour l'audiovisuel",
-                text: ` En ce qui concerne le domaine audiovisuel, je te recommande :
-                
-                <ul>
-              <li>
-               De prendre en main dès que possible le logiciel de montage DaVinci Resolve, car cela facilitera ton apprentissage lors des premiers cours en MMI.
-              </li>
-              <li>
-                D'adopter un regard critique sur les films ou métrages que tu visionnes afin de développer une approche plus créative lors des tournages et de produire des vidéos de meilleure qualité.
-              </li>
-            </ul>`,
-            }
+            
         ]
     },
     "Les conseils de Nicolas": {
@@ -494,7 +504,7 @@ image: "../img.video/storyboardHard.jpg",
               <li>
                 Utilise ChatGPT de la bonne manière. L’IA est là, c’est un fait. Je ne vais pas te dire de ne pas l’utiliser car tout le monde le fait. C’est un outil puissant qui peut soit te permettre de t’améliorer plus rapidement ou peut ralentir drastiquement tes progrès en dev. Utilise-le pour t’expliquer des concepts plutôt que de faire tes travaux. Tu peux avoir une bonne note en utilisant ChatGPT, mais il viendra un jour où il faudra faire sans et là ça va être compliqué.
               </li>
-            </ul>   Mes ressources :
+            </ul>   Ressources utiles :
                 <ul>
               <li>
                ChatGPT : pour m'expliquer des principes que je n'arrive pas à comprendre seul (je lui demande de me les expliquer comme si j'avais 5 ans).

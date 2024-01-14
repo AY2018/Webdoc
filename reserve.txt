@@ -1,7 +1,23 @@
-.texte{ 
-    color: black;
-}
+En général : 
+1. Ne pas rester dans son coin
+Dans le graphisme, il est important de se mélanger aux autres étudiants et aux professeurs, de partager ses idées et d'apprendre des autres. Cela te permettra de t'ouvrir à de nouvelles perspectives et de te développer en tant qu'artiste.
+2. Écouter ce que les autres disent
+Les professeurs et les autres étudiants ont beaucoup à offrir. Ils peuvent partager leurs connaissances, leurs expériences et leurs conseils. Il est important d'écouter attentivement ce qu'ils ont à dire, même si on ne les comprend pas toujours. Si les professeurs sont là devant toi, à t’enseigner un sujet, c’est qu’ils le maîtrisent et qu’ils seront là si tu as besoin d’aide
+Pour le graphisme : 
+1. Apprendre par soi-même 
+Les cours de graphisme ne suffisent pas à couvrir l'ensemble des connaissances et des compétences nécessaires pour pouvoir te développer en tant qu'artiste et également utiles dans ta vie professionnelle. Il est donc important 
+que tu t'intéresses par toi-même aux différents domaines artistiques en dehors des cours, en lisant des livres, 
+des articles ou des blogs, en regardant des vidéos, en visitant des musées et des galeries, etc. 
+2. Constituer son portfolio dès le début
+Le portfolio est un outil essentiel pour présenter son travail artistique et te faire remarquer par les professionnels. 
+Il est donc important de le constituer dès le début de tes études, en y intégrant tes travaux personnels réalisés en dehors du scolaire. Cela permettra de montrer ta motivation et ton engagement, et de développer ton propre style.
+3. S'inspirer des autres, mais sans copier 
+Regarder ce que font les autres, qu'ils soient élèves ou professionnels, est une excellente source d'inspiration. Cela permet d'apprendre de nouvelles techniques, de découvrir de nouveaux styles et de se motiver. Cependant, il est important de ne pas copier les autres artistes, mais de s'inspirer de leur travail pour créer quelque chose de personnel.
+4. Trouver sa propre patte 
+L'un des objectifs du graphisme est de te distinguer des autres. Il est donc important de trouver ta propre patte artistique, ton style propre à toi, ce qui fera de ton travail quelque chose d'unique. Cela peut se faire en explorant différentes techniques et en s'appropriant les influences qui te paraissent importantes.
 
-I'd like the textarea here to only be at the value of the color (where "black" is). So that the user can try and change the color. 
 
-When he does, I'd like to automatically update the css so that when the user inputs "red", then the text displayed should be in red color. So the only editable part by the user here the color value
+
+
+
+
