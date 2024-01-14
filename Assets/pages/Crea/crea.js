@@ -156,9 +156,9 @@ function addMessagesSequentially(messages, index, returnAfterLastMessage = false
     switch (paletteIndex) {
   case 0: // Palette A
     newMessages = [
-      { text: "Perso, je pense que la palette A serait bien.", sender: "mine", firstMine: true, delay: 2000 },
-      { text: "Hmm, les couleurs ne représentent pas vraiment la gravité de la situation.", sender: "other", firstOther: true, delay: 3000 },
-      { text: "Le beige et le blanc sont trop clairs et purs. Pour viser les harceleurs, il nous faut des teintes plus sombres.", sender: "other", delay: 3000 }
+      { text: "Perso, je pense que la palette A serait bien.", sender: "mine", firstMine: true, delay: 1000 },
+      { text: "Hmm, les couleurs ne représentent pas vraiment la gravité de la situation.", sender: "other", firstOther: true, delay: 1500 },
+      { text: "Le beige et le blanc sont trop clairs et purs. Pour viser les harceleurs, il nous faut des teintes plus sombres.", sender: "other", delay: 1500 }
     ];  
     addMessagesSequentially(newMessages, 0);
     break;
@@ -166,8 +166,8 @@ function addMessagesSequentially(messages, index, returnAfterLastMessage = false
   case 1: // Palette B
     newMessages = [
       { text: "Peut-être la palette B ?", sender: "mine", firstMine: true, delay: 1000 },
-      { text: "Hmm, le rouge me paraît correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 2000 },
-      { text: "Mais je pense que mettre juste du blanc ici est dommage. On pourrait ajouter une couleur plus impactante et en lien avec notre ton grave.", sender: "other", delay: 3000 }
+      { text: "Hmm, le rouge me paraît correct pour représenter la gravité de notre ton, j'aime bien.", sender: "other", firstOther: true, delay: 1500 },
+      { text: "Mais je pense que mettre juste du blanc ici est dommage. On pourrait ajouter une couleur plus impactante et en lien avec notre ton grave.", sender: "other", delay: 1500 }
     ]; 
     addMessagesSequentially(newMessages, 0);
     break;

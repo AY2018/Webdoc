@@ -14,7 +14,7 @@ in audiovisu and crea : when user can pick a choice, don't let him pick another 
 
 
 
-"Erwan": {
+"Les conseils d'Erwan": {
         title: "Les conseils d'Erwan",
         content: [
             {
