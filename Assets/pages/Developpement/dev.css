@@ -1,5 +1,15 @@
 #loader {
     background-image: url(../../img.video/dev.jpg);
+    animation: Disapear 1.5s ease forwards 5s;
+}
+
+#loader a{
+    text-decoration: underline;
+    color: #4D2465;
+}
+
+.loadingBar::after {
+    animation: loadBar 5s ease-in-out forwards;
 }
 
 .comm{

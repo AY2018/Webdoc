@@ -1,5 +1,6 @@
 #loader {
     background-image: url(../../img.video/comm.jpg);
+    display: none;
 }
 
 .comm{
@@ -20,8 +21,15 @@
     flex-direction: column;
     gap: 30px;
     align-items: center;
-    justify-content: center;
     overflow-y: auto;
+    position: relative;
+}
+
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 @keyframes Grow {
@@ -51,27 +59,33 @@ video{
     gap: 20px;
     justify-content: space-between;
     overflow: hidden;
-    height: 200px;
 }
 
 .videoChoices figure{
-    width: 50%;
     cursor: pointer;
+    width: 50%;
 }
+
+
 
 .videoChoices figure img{
     height: 100%;
 }
 
-.videoChoices .row2{
-    height: 400px;
+
+.row{
+    height: fit-content;
 }
+
 
 
 .row section{
     width: 50%;
+    align-self: flex-end;
 }
 
 
-
+.finalBtn{
+    align-self: flex-end;
+}
 

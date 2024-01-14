@@ -18,7 +18,10 @@ const stageBoxes = {
         { title: "Development Web", href: "./Developpement/dev.html", backgroundImage: "../img.video/dev.jpg", requiredStage: 7, images: ["../img.video/ayoub.jpg"] }
     ],
     8: [
-        { title: "SAE Rendu", href: "link-to-sae-rendu.html" }
+        { title: "SAE Rendu", href: "./Rendu/rendu.html", backgroundImage: "../img.video/rendu.jpg" }
+    ],
+    9: [
+        { title: "Débouchés", href: "./Debouches/debouches.html", backgroundImage: "../img.video/debouches.jpg" }
     ]
 };
 

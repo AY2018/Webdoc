@@ -148,6 +148,14 @@
     text-wrap: wrap;
     max-width: 70%;
     font-size: 1.1rem;
+    opacity: 0;
+    animation: fadeIn 0.2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+    to{
+        opacity: 1;
+    }
 }
 
 .conv li img{

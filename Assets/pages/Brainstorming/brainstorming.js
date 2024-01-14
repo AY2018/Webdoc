@@ -26,7 +26,8 @@ document.addEventListener('DOMContentLoaded', function() {
   wrappers.forEach(wrapper => {
     wrapper.addEventListener('click', function() {
       const cardDiv = wrapper.querySelector('.card');
-
+      let mySection = document.getElementById('brainstorming');
+      mySection.scrollTop = mySection.scrollHeight;
       // If the correct card is already validated, just flip the other cards
       if (correctCardValidated) {
         if (wrapper.id !== 'correct') {

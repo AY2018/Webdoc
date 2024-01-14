@@ -3,15 +3,15 @@ const notesData = {
         title: "Infos de Base",
         content: [
             {
-                subTitle: "MMI : C'est quoi ?",
-                text: "MMI (Métiers du Multimédia et de l'Internet) = formation de niveau BAC+3 orientée vers les domaines du multimédia et de l'internet. <br/> <br/> Elle vise à fournir une solide base de compétences techniques et théoriques dans plusieurs domaines tels que la communication, le développement web, la création numérique, et l'audiovisuel.",
+                subTitle: "MMI C'EST QUOI ?",
+                text: "MMI (Métiers du Multimédia et de l'Internet) = formation de niveau BAC+3 orientée vers les domaines du multimédia et de l'internet. <br/> <br/> Elle vise à fournir une base solide avec des compétences théoriques et pratiques dans plusieurs domaines tels que la communication, le développement web, la création numérique, et l'audiovisuel.",
             },
 
             {
-                subTitle: "Les Pilliers d'MMI",
+                subTitle: "LES PILLIERS DE MMI",
                 text: ` Communication <ul>
               <li>
-                Stratégies de communication digitale et médias sociaux.
+              Concevoir des stratégies de communication digitale et médias sociaux. + Étudier les principes de la publicité.... des marques ou des associations.
               </li>
               <li>
                 Étude des principes de la publicité, du marketing numérique, et de la gestion de la présence en ligne des marques ou des organisations.
@@ -25,14 +25,14 @@ const notesData = {
               </li>
             </ul> Audiovisuel <ul>
               <li>
-               Production et réalisation de contenus audiovisuels.
+               Produire et réaliser des contenus audiovisuels.
               </li>
               <li>
                 = la création de vidéos, l'édition, le montage, et l'apprentissage des techniques de prise de vue et de sonorisation.
               </li>
             </ul> Développement Web <ul>
               <li>
-                Conception et développement de sites et d'applications web.
+                Concevoir et développer des sites/applications web.
               </li>
               <li>
                 Apprentissage des langages de programmation, de la gestion de bases de données, et des principes de conception web responsive.
@@ -88,14 +88,7 @@ const notesData = {
               <li>
                 Cette méthode d'évaluation permet une appréciation plus juste et complète des compétences réelles des étudiants, par opposition aux évaluations purement théoriques.
               </li>
-            </ul> Connexion avec le Monde Professionnel <ul>
-              <li>
-                Certaines SAE peuvent impliquer des partenariats ou des collaborations avec des entreprises réelles, offrant une expérience de travail précieuse et une mise en réseau avec des professionnels du secteur.
-              </li>
-              <li>
-                Permet aux étudiants de comprendre les attentes du monde professionnel et d'acquérir une expérience pertinente avant même la fin de leurs études.
-              </li>
-            </ul> `,
+            </ul>`,
             },
 
         ]
@@ -105,7 +98,7 @@ const notesData = {
         content: [
             {
                 subTitle: "Le Brief = les consignes de la SAE",
-                text: ` Conception d’une campagne de sensibilisation. </br>Thème : Diversité dans le numérique. </br></br> Documents qu'il faudra rendre en fin d'SAE  
+                text: ` Conception d’une campagne de sensibilisation. </br>Thème : Diversité dans le numérique. </br></br> Documents qu'il faudra rendre en fin de SAE  
                 <ul>
               <li>
                 Dossier de conception
@@ -121,7 +114,6 @@ const notesData = {
               </li>
             </ul>`
             },
-            // More subparts can be added here
         ]
     },
     "Spécialités": {
@@ -129,7 +121,7 @@ const notesData = {
         content: [
             {
                 subTitle: "3 Spécialités en 2ème année",
-                text: `C'est en 2ème année que l'on se spécialise en MMI : <ul>
+                text: `C'est en deuxième année qu'on se spécialise en MMI : <ul>
               <li>
                 Développement Web : plus technique
               </li>
@@ -139,9 +131,8 @@ const notesData = {
               <li>
                 Communication : plus marketing
               </li>
-            </ul> ps: Il se peut que certains IUT n'offrent pas une spécialité, il faut se renseigner ! `
+            </ul> PS : Attention ! Les IUT ne font pas toujours les 3 parcours. Par exemple, à l'IUT de Vélizy-Rambouillet, que Développement web et Création numérique `
             },
-            // More subparts can be added here
         ]
     },
     "Brainstorming": {
@@ -149,40 +140,65 @@ const notesData = {
         content: [
             {
                 subTitle: "Qu'est ce que le Brainstorming ?",
-                text: "C'est technique de recherche d’idées originales dans une réunion, chacun émettant ses suggestions spontanément. Cela permet d'avoir l'avis de tous et de décider en commun sur le sujet de notre projet.",
-                // Add more properties as needed
+                text: "C'est une technique de recherche d’idées originales dans une réunion, où chacun émet des suggestions spontanément. Cela permet de décider de façon commune quel sera le sujet de notre projet.",
             },
             {
                 subTitle: "Le thème qui nous a été attribiué:",
                 text: "Diversité dans le numérique.",
-                // Add more properties as needed
             },
             {
                 subTitle: "Sujet + Axe = Cyberbullying, mais on compte viser les harceleurs principalement",
-                // Add more properties as needed
             },
-            // More subparts can be added here
         ]
     },
     "Communication": {
-        title: "Communication",
+        title: "Dossier de Communication : Étapes Clés du Projet",
         content: [
             {
-                subTitle: "Qu'est ce que le Comm ?",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
+                subTitle: "Première Étape : Explication et Justification du Sujet",
+                text: ` <ul>
+              <li>
+               Justification du choix du sujet : pourquoi ce sujet a été choisi, en quoi il est pertinent et cohérent avec le thème global du projet.
+              </li>
+              <li>
+                Exploration des objectifs visés par le sujet et de son impact potentiel sur l'audience cible.
+              </li>
+            </ul>`
             },
             {
-                subTitle: "Recherche",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
+                subTitle: "Deuxième Étape : Recontextualisation et Benchmarking",
+                text: ` <ul>
+              <li>
+               Benchmarking : analyse approfondie des campagnes similaires existantes.
+              </li>
+              <li>
+                Objectif du benchmarking : identifier les éléments marquants, les stratégies réussies et les éventuels échecs à éviter.
+              </li>
+              <li>
+                Étude comparative pour comprendre les tendances, les techniques de communication efficaces, et les innovations dans le domaine.
+              </li>
+            </ul>`
             },
             {
-                subTitle: "Pour ce sujet :",
-                text: "On a choisit de partir sur un ton dark",
-                // Add more properties as needed
+                subTitle: "Stratégie de Communication : Élaboration du Plan de Communication",
+                text: ` <ul>
+              <li>
+               Définition de la cible : qui souhaite-t-on atteindre avec cette campagne ? Quels sont les caractéristiques et comportements de cette audience ?
+              </li>
+              <li>
+                Nom de la campagne : création d'un nom accrocheur et mémorable qui reflète l'essence de la campagne.
+              </li>
+              <li>
+                Ton de la campagne : déterminer le style de communication (formel, informel, humoristique, sérieux, etc.) adapté à la cible et au message.
+              </li>
+              <li>
+                Pistes graphiques : choix des éléments visuels clés comme les couleurs, les typographies, et les styles graphiques.
+              </li>
+              <li>
+                Supports de communication : sélection des canaux de diffusion (ex : affiches, site web, réseaux sociaux) en fonction de la cible et des objectifs de la campagne.
+              </li>
+            </ul>`
             },
-            // More subparts can be added here
         ]
     },
 
@@ -196,7 +212,7 @@ const notesData = {
                 Color Hunt = Palettes de couleur
               </li>
               <li>
-                Figma = Pour dessiner une maquette
+                Figma = Pour créer une maquette
               </li>
             </ul>`               
             },
@@ -254,13 +270,13 @@ const notesData = {
         title: "Les conseils de Fabien et Charles",
         content: [
             {
-                subTitle: "Fabien : Apprendre de son côté",
+                subTitle: "Fabien : Explore par toi-même", 
                 text:`<ul>
               <li>
-                Explorer par soi-même. Il n'est pas toujours possible d'apprendre exactement ce qu'on veut en cours à cause du programme fix.
+                Explorer par soi-même. Il n'est pas toujours possible d'apprendre exactement ce qu'on veut en cours à cause du programme fixé.
               </li>
               <li>
-                Découvrir par soi-même différents logiciels et concepts en dehors des cours. Cela t'aidera à déterminer vers quel domaine je souhaiterais m'orienter en deuxième année (rappel : c'est en 2ème année qu'on choisit sa spécialité : Développement/Création ou Communication).
+                Decouvre par toi-même différents logiciels et concepts en dehors des cours. Cela te permettra de déterminer plus facilement vers quels domaines tu souhaiteras t'orienter en deuxième année (rappel : c'est en 2ème année qu'on choisit sa spécialité : Développement/Création ou Communication).
               </li>
             </ul>`   
                 // Add more properties as needed
@@ -337,14 +353,166 @@ image: "../img.video/storyboardHard.jpg",
         title: "Dév web",
         content: [
             {
-                subTitle: "Front VS Back",
-                text: "Lorem ipsum dolor sit amet consectetur adipisicing elit...",
-                // Add more properties as needed
+                subTitle: "Commencer le Code après avoir Récupéré les Maquettes",
+                text: `Cette approche souligne l'importance de concevoir d'abord l'aspect visuel et la structure du site à partir de maquettes avant de commencer à écrire le code. Cela permet de clarifier les objectifs visuels et fonctionnels du projet avant de passer à l'implémentation.`
+            },
+            {
+                subTitle: "CMS (Système de Gestion de Contenu)",
+                text: `Un CMS facilite la création de sites web sans nécessiter de compétences approfondies en programmation. Il permet aux utilisateurs de gérer et mettre à jour le contenu du site de manière intuitive sans avoir à écrire de code. Des exemples de CMS populaires incluent WordPress, Joomla et Drupal.`
+            },
+            {
+                subTitle: "Débouchés en Développement",
+                text: `Un CMS facilite la création de sites web sans nécessiter de compétences approfondies en programmation. Il permet aux utilisateurs de gérer et mettre à jour le contenu du site de manière intuitive sans avoir à écrire de code. Des exemples de CMS populaires incluent WordPress, Joomla et Drupal.`
+            },
+            {
+                subTitle: "Développeur Front :",
+                text: `Le développeur front-end se concentre sur la création de l'interface utilisateur visible du site. Il travaille avec HTML pour l'architecture, CSS pour le style, et JavaScript pour ajouter de l'interactivité et de la dynamique au site.`
+            },
+            {
+                subTitle: "Développeur Back :",
+                text: `Le développeur back-end est responsable de la partie invisible du site. Cela inclut la gestion des bases de données avec SQL, la logique de serveur avec des langages comme PHP, et la coordination des échanges d'informations entre la base de données et le front-end.`
+            },
+            {
+                subTitle: "Développeur Full-Stack  :",
+                text: `Un développeur full-stack possède des compétences à la fois en front-end et en back-end, ce qui lui permet de travailler sur l'ensemble du développement d'un projet web.`
+            },
+            {
+                subTitle: "Côté Front de notre Site :",
+                text: `La composante front-end du site englobe HTML pour l'architecture structurelle, CSS pour le design et la mise en page, ainsi que JavaScript pour l'ajout de fonctionnalités interactives`
+            },
+            {
+                subTitle: "Côté Back de notre Site :",
+                text: `La partie back-end est responsable de la gestion des données avec SQL, où les informations sont stockées dans une base de données. PHP, quant à lui, est utilisé pour traiter ces données et les envoyer au front-end pour affichage.`
+            },
+        ]
+    },
+
+    // These four notes should be added at the same time
+    "Les conseils de Marie": {
+        title: "Les conseils de Marie",
+        content: [
+            {
+                subTitle: "L’Ouverture",
+                text: "Lors de mon parcours en BUT MMI, j'ai souvent été confrontée à des projets qui ne semblaient pas passionnants au premier abord. Cependant, j'ai adopté une approche positive en m'efforçant de trouver des aspects intéressants, car je savais que c'était peut-être ma seule opportunité de travailler sur ces sujets. Cette attitude m’a permis d’être souvent très motivée, pour chacun de mes projets. C’est mieux, non ? ",
+            },
+
+            {
+                subTitle: "La Culture",
+                text: "Posséder une culture générale variée est une véritable force, quelle que soit la spécialité dans laquelle tu évolueras. La lecture, le cinéma, la botanique, la politique et j’en passe… C’est élargir ta vision du monde. Une perspective plus globale t'aidera à analyser de manière plus approfondie les projets auxquels tu seras confronté.",
+            },
+
+            {
+                subTitle: "Le Bien-Être",
+                text: "Accorde une importance cruciale à ton bien-être en maintenant un cycle de sommeil régulier, une alimentation équilibrée et une organisation efficace. Bien que cela puisse sembler évident, la mise en place de ces habitudes peut être difficile pendant certaines périodes intenses de la formation. Dès que tu auras un projet, commence à travailler dessus sans procrastiner. Travailler dans l'urgence n'est pas seulement stressant, mais cela peut également compromettre tes périodes de pause et de repos. Et ça, c’est niet.",
+            },
+
+            {
+                subTitle: "Les Rencontres",
+                text: "N'hésite pas à poser des questions aux professeurs, aux professionnels du domaine (notamment via LinkedIn) et à tes camarades de classe / de promotion / de formation. Ces derniers pourraient devenir tes futurs collègues, et les conseils des professionnels peuvent être précieux tant pour tes projets académiques que pour ta future carrière. En plus, dans le domaine du BUT MMI, j'ai constaté que les personnes sont souvent très bienveillantes et passionnées.",
+            },
+        ]
+    },
+    "Les conseils d'Erwan": {
+        title: "Les conseils d'Erwan",
+        content: [
+            {
+                subTitle: "En général",
+                text: "Avant de postuler, je te conseille vraiment de bien comprendre le concept de pluridisciplinarité de la formation, car aucune notion ne revient de manière récurrente à apprendre. C'est toujours une évolution constante dans les différents domaines. <br/><br/> Quelque chose qui m'a beaucoup aidé et que je t'encourage à faire aussi, c'est de réaliser beaucoup de projets personnels de ton côté. Ainsi, tu pourras te démarquer des autres étudiants en acquérant des compétences supplémentaires. De plus, tu pourras utiliser ces compétences dans d'autres projets pour les renforcer davantage. <br/><br/> Enfin, je te recommande vivement de faire attention à ton organisation, il y aura certains moments où tu n'aura pas grand choses à faire ou alors les échéances seront dans longtemps et d'autres moments où tu sera complètement débordés. Et le changement de l'un à l'autre peut arriver très vite donc je te conseil vraiment de te donner à fond dans chaque travail dès qu'un prof te le donne pour éviter d'être dépasser quand d'autres projets seront à rendre en même temps. ",
+            },
+
+            {
+                subTitle: "Pour l'audiovisuel",
+                text: ` En ce qui concerne le domaine audiovisuel, je te recommande :
+                
+                <ul>
+              <li>
+               De prendre en main dès que possible le logiciel de montage DaVinci Resolve, car cela facilitera ton apprentissage lors des premiers cours en MMI.
+              </li>
+              <li>
+                D'adopter un regard critique sur les films ou métrages que tu visionnes afin de développer une approche plus créative lors des tournages et de produire des vidéos de meilleure qualité.
+              </li>
+            </ul>`,
+            }
+        ]
+    },
+    "Les conseils de Nicolas": {
+        title: "Les conseils de Nicolas",
+        content: [
+            {
+                subTitle: "En général",
+                text: "Avant de postuler, je te conseille vraiment de bien comprendre le concept de pluridisciplinarité de la formation, car aucune notion ne revient de manière récurrente à apprendre. C'est toujours une évolution constante dans les différents domaines. <br/><br/> Quelque chose qui m'a beaucoup aidé et que je t'encourage à faire aussi, c'est de réaliser beaucoup de projets personnels de ton côté. Ainsi, tu pourras te démarquer des autres étudiants en acquérant des compétences supplémentaires. De plus, tu pourras utiliser ces compétences dans d'autres projets pour les renforcer davantage. <br/><br/> Enfin, je te recommande vivement de faire attention à ton organisation, il y aura certains moments où tu n'aura pas grand choses à faire ou alors les échéances seront dans longtemps et d'autres moments où tu sera complètement débordés. Et le changement de l'un à l'autre peut arriver très vite donc je te conseil vraiment de te donner à fond dans chaque travail dès qu'un prof te le donne pour éviter d'être dépasser quand d'autres projets seront à rendre en même temps. ",
+            },
+
+            {
+                subTitle: "Pour l'audiovisuel",
+                text: ` En ce qui concerne le domaine audiovisuel, je te recommande :
+                
+                <ul>
+              <li>
+               De prendre en main dès que possible le logiciel de montage DaVinci Resolve, car cela facilitera ton apprentissage lors des premiers cours en MMI.
+              </li>
+              <li>
+                D'adopter un regard critique sur les films ou métrages que tu visionnes afin de développer une approche plus créative lors des tournages et de produire des vidéos de meilleure qualité.
+              </li>
+            </ul>`,
+            }
+        ]
+    },
+    "Les conseils d'Ayoub": {
+        title: "Les conseils d'Ayoub",
+        content: [
+            {
+                subTitle: "En général",
+                text: `Mon conseil serait de tisser des liens forts lors de tes 3 années d’études, que tu décides de venir en MMI ou non. Ce que tu apprends à l’école devient de plus en plus accessible en ligne. L’intérêt de l’école est donc selon moi, cet aspect social. <br/><br/> Chacun de tes camarades a au moins 18 ans, c’est beaucoup d’expériences différentes.
+                <br/><br/> Les professeurs sont également des personnes qui ont non seulement des années d’expérience dans le domaine, que ce soit en tant qu’enseignant ou même en tant que professionnel. Chacun peut t’apprendre des choses différentes. Ce sont des oasis de savoirs qui, puisqu’ils sont profs, veulent te les transmettre.
+        Sois curieux. Si tu as des questions sur un sujet, pose-les, même si cela peut paraître stupide.
+    <br/><br/>C’est en étant curieux, respectueux et sociable que tu vas non seulement apprendre beaucoup plus que sur YouTube, mais tu vas également développer un réseau puissant, et le plus important, développer des relations humaines précieuses.`,
+            },
+
+            {
+                subTitle: "Pour le dev",
+                text: `Si tu veux juste avoir un bon niveau ou survivre à tes cours de dev en MMI : 
+                <ul>
+              <li>
+               N'hésite pas à poser des questions à ton prof. Il a des années d'expérience avec des élèves qui ont du mal en dev, il pourra te donner de meilleurs conseils que moi.
+              </li>
+              <li>
+                Tu peux essayer de prendre de l'avance sur tes camarades en regardant des vidéos YouTube.
+              </li>
+            </ul>  Si tu veux devenir développeur plus tard :
+                
+                <ul>
+              <li>
+               Maîtrise l’anglais : la plupart des ressources en ligne sont en anglais (et ce n’est pas prouvé, mais je trouve personnellement que ChatGPT donne de meilleures réponses quand tu lui demandes en anglais haha)..
+              </li>
+              <li>
+                Apprends de ton côté : Les technologies évoluent de plus en plus rapidement, il faut que tu puisses apprendre même après ta formation MMI.
+              </li>
+              <li>
+               Fais des projets en parallèle : Je pense que faire seulement 3-4 petits projets dans l’année est un peu trop peu. Trouve des idées de projets en ligne ou même mieux : des projets qui répondent à tes besoins. Exemple : un site où tu peux dire ce que tu as fait à la salle chaque jour de la semaine (que tu peux faire évoluer plus tard pour intégrer du backend pour faciliter l’insertion de chaque entrée. Tu pourrais même faire en sorte que tes amis/proches puissent créer leur propre session et ensuite que vous puissiez visualiser les progrès de chacun pour vous motiver). Faire des projets en plus, c’est non seulement mieux maîtriser tes outils, mais aussi développer un portfolio plus complet et diversifié que la concurrence.
+              </li>
+              <li>
+                Utilise ChatGPT de la bonne manière. L’IA est là, c’est un fait. Je ne vais pas te dire de ne pas l’utiliser car tout le monde le fait. C’est un outil puissant qui peut soit te permettre de t’améliorer plus rapidement ou peut ralentir drastiquement tes progrès en dev. Utilise-le pour t’expliquer des concepts plutôt que de faire tes travaux. Tu peux avoir une bonne note en utilisant ChatGPT, mais il viendra un jour où il faudra faire sans et là ça va être compliqué.
+              </li>
+            </ul>   Mes ressources :
+                <ul>
+              <li>
+               ChatGPT : pour m'expliquer des principes que je n'arrive pas à comprendre seul (je lui demande de me les expliquer comme si j'avais 5 ans).
+              </li>
+              <li>
+                YouTube (FreeCodeCamp, WebDevSimplified) : pour apprendre les bases en dev (Attention! En Anglais)
+              </li>
+              <li>
+                OpenClassroom : option francophone pour apprendre les bases du code seul.
+              </li>
+              <li>
+                VSCode : pour coder.
+              </li>
+            </ul>`,
             }
         ]
     },
 
-    // Add other notes here
 };
 
 function generateNoteList() {
@@ -353,6 +521,14 @@ function generateNoteList() {
 
     let noteTitles = Object.keys(notesData);
     let displayedNotes = noteTitles.slice(0, stage + 1); // Include notes up to the current stage
+
+    // Append the last four notes if the stage is 9
+    if (stage === 9) {
+        const lastFourNotes = noteTitles.slice(-4); // Get the last four notes
+        displayedNotes = displayedNotes.concat(lastFourNotes);
+    }
+
+    displayedNotes = Array.from(new Set(displayedNotes)); // Remove duplicates if any
     displayedNotes.reverse(); // Reverse the order of the notes
 
     displayedNotes.forEach(noteTitle => {
@@ -381,6 +557,10 @@ function generateNoteList() {
         updateNoteContent(notesData[displayedNotes[0]]);
     }
 }
+
+
+// Rest of your code remains the same
+
 
 
 function updateNoteContent(note) {

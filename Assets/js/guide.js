@@ -5,18 +5,26 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 
+
+
 function addGuide1() {
     const ecampusGuide = document.getElementById('ecampusGuide');
     const ecampusContainer = document.getElementById('ecampusContainer');
 
-    if (ecampusGuide) {
-        ecampusGuide.style.display = 'flex';
-    }
+    ecampusGuide.scrollIntoView();
 
-    if (ecampusContainer) {
-        ecampusContainer.classList.add('Guide1');
-    }
+    // Delay the execution of the rest of the function
+    setTimeout(() => {
+        if (ecampusGuide) {
+            ecampusGuide.style.display = 'flex';
+        }
+
+        if (ecampusContainer) {
+            ecampusContainer.classList.add('Guide1');
+        }
+    }, 100); // 100 milliseconds delay
 }
+
 
 function removeGuide1AddGuid2() {
     const ecampusContainer = document.getElementById('ecampusContainer');

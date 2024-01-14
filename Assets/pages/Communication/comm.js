@@ -9,21 +9,27 @@ document.addEventListener('DOMContentLoaded', function() {
   let secondNoteAdded = false;
   let thirdNoteAdded = false;
   let fourthNoteAdded = false;
+  let fifthNoteAdded = false;
+  let sixthNoteAdded = false;
 
   // Function to handle time updates for the first video
   function handleFirstVideoTimeUpdate() {
     let currentTime = video.currentTime;
 
-    if (currentTime >= 9 && !firstNoteAdded) {
-      addNoteToList("Première note");
+    if (currentTime >= 16 && !firstNoteAdded) {
+      addNoteToList("Dossier de conception = la partie communication de notre projet, plusieurs étapes");
       firstNoteAdded = true;
     }
-    if (currentTime >= 14 && !secondNoteAdded) {
-      addNoteToList("Deuxième note");
+    if (currentTime >= 32 && !secondNoteAdded) {
+      addNoteToList("Etape 1 = Expliquer le sujet et le justifier (Pourquoi ? En quoi est-ce cohérent avec le thème ?)");
       secondNoteAdded = true;
     }
-    if (currentTime >= 19 && !thirdNoteAdded) {
-      addNoteToList("Troisième note");
+    if (currentTime >= 68 && !thirdNoteAdded) {
+      addNoteToList("Etape 2 = Recontextualiser le sujet de notre campagne ");
+      thirdNoteAdded = true;
+    }
+    if (currentTime >= 91 && !fourthNoteAdded) {
+      addNoteToList("Benchmarking = Analyser des campagnes similaires pour en tirer ce qui est marquant");
       thirdNoteAdded = true;
     }
   }
@@ -43,6 +49,8 @@ document.addEventListener('DOMContentLoaded', function() {
       let listItem = document.createElement('li');
       listItem.textContent = note;
       notesList.appendChild(listItem);
+      notesList.scrollTop = notesList.scrollHeight;
+
     }
   }
 
@@ -69,9 +77,13 @@ window.playVideo = function(filename) {
   if (filename === 'marie4.mp4') {
     // Additional logic for "marie4.mp4"
     video.addEventListener('timeupdate', function() {
-      if (video.currentTime >= 10 && !fourthNoteAdded) {
-        addNoteToList("Quatrième note");
-        fourthNoteAdded = true; // Ensure the note is added only once
+      if (video.currentTime >= 80 && !fifthNoteAdded) {
+        addNoteToList("Stratégie de comm = plan de communication pour que la campagne réussisse : Définir la cible, le nom, le ton de la campagne, les éléments graphiques clés, et les supports de diffusion.");
+        fifthNoteAdded = true; // Ensure the note is added only once
+      }
+      if (video.currentTime >= 105 && !sixthNoteAdded) {
+        addNoteToList("Dossier de conception = Ligne conductrice du projet! ");
+        sixthNoteAdded = true; // Ensure the note is added only once
       }
     });
 

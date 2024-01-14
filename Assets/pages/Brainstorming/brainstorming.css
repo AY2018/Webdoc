@@ -2,10 +2,26 @@ h2 {
     color: #4D2465;
 }
 
+
+.brainstorming::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+.brainstorming::-webkit-scrollbar-thumb {
+    background-color: #ffffff30;
+    border-radius: 10px;
+}
+
+
 .brainstorming{
     width: 90%;
     margin-inline: auto;
+    padding-inline: 20px;
     padding-top: 40px;
+    overflow: auto;
+    scrollbar-color: #ffffff30 transparent;
+
 }
 
 .ecampusContainer{
@@ -18,6 +34,9 @@ h2 {
 }
 
 
+ul{
+    align-self: flex-start;
+}
 .infoBtn {
     font-size: 1.5rem;
     font-weight: bold;
@@ -102,6 +121,7 @@ h2 {
     height: 100%;
     width: 150px;
     position: relative;
+    cursor: pointer;
 
 }
 
@@ -137,6 +157,7 @@ h2 {
     text-align: center;
     transition: all 0.5s ease;
     transform-style: preserve-3d;
+    cursor: pointer;
 }
 
 .clicked{
@@ -182,7 +203,8 @@ h2 {
     transform: rotateY(180deg);
     position: absolute;
     height: 100%;
-    background: #fff;
+    color: white;
+    background: rgb(255, 25, 25);
     font-weight: bold;
 }
 
@@ -218,6 +240,7 @@ h2 {
 
 
 #validateBtn, .finalBtn {
+    border: none;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 16px 35px;
@@ -231,6 +254,7 @@ h2 {
     bottom: -150px;
     left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
 }
 
 #validateBtn:hover {

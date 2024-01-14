@@ -1,13 +1,30 @@
 let stage = localStorage.getItem('stage') !== null ? parseInt(localStorage.getItem('stage')) : 0;
 let noteCount = localStorage.getItem('noteCount') !== null ? parseInt(localStorage.getItem('noteCount')) : 0;
 
+
+function checkDeviceWidth() {
+    console.log("Window inner width: ", window.innerWidth); // Add this line
+    if (window.innerWidth < 961) {
+        window.location.href = '../pages/redirect.html';
+        console.log("Window inner width: ", window.innerWidth);
+    }
+}
+
+window.onload = checkDeviceWidth;
+
+
 // Function to update the stage both locally and (eventually) on the server
 function updateStage(newStage) {
     stage = newStage;
     localStorage.setItem('stage', stage);
 
     // Update note count and notification display
-    noteCount++;
+    if (newStage === 9) {
+        noteCount += 4;
+    } else {
+        noteCount++;
+    }
+    
     updateNoteNotification();
     localStorage.setItem('noteCount', noteCount);
 

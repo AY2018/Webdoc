@@ -1,3 +1,13 @@
+
+document.addEventListener("DOMContentLoaded", function() {
+            // Get the element with id "notif"
+            var notif = document.getElementById("notif");
+
+            // Add the class "notifAppear" to the element
+            notif.classList.add("notifAppear");
+
+})
+
 document.getElementById('unclickableLink').addEventListener('click', function(event) {
     event.preventDefault();
   });
@@ -11,21 +21,9 @@ function closeNotif() {
     var mail = document.getElementById('mail');
 
     // Apply reverse animation
-    notif.style.animation = 'notifSlideOut 0.5s ease-in-out forwards';
-     mail.style.display = 'block';
-
-    // Wait for the reverse animation to complete
-    setTimeout(function() {
-        // After the animation completes, hide the notification
-        notif.style.display = 'none';
-
-        // Optionally, reset the animation property
-        // This ensures the slide-in animation can be replayed in the future if needed
-        notif.style.animation = null;
-
-        // Show the mail element
-       
-    }, 500); // This timeout should match the duration of the slide-out animation
+    notif.classList.remove('notifAppear');
+    notif.classList.add('notifDisappear');
+    mail.style.display = 'flex';
 }
 
 

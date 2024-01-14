@@ -5,27 +5,52 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
   // Function to handle time updates for the first video
-  let firstNoteAdded = false;
-  let secondNoteAdded = false;
-  let thirdNoteAdded = false;
-  let fourthNoteAdded = false;
+  let note1 = false;
+  let note2 = false;
+  let note3 = false;
+  let note4 = false;
+  let note5 = false;
+  let note6 = false;
+  let note7 = false;
+  let note8 = false;
 
   // Function to handle time updates for the first video
   function handleFirstVideoTimeUpdate() {
     let currentTime = video.currentTime;
 
-    if (currentTime >= 9 && !firstNoteAdded) {
-      addNoteToList("Première note");
-      firstNoteAdded = true;
+    if (currentTime >= 30 && !note1) {
+      addNoteToList("C'est mieux de commencer le code après avoir récupéré les maquettes.");
+      note1 = true;
     }
-    if (currentTime >= 14 && !secondNoteAdded) {
-      addNoteToList("Deuxième note");
-      secondNoteAdded = true;
+    if (currentTime >= 39 && !note2) {
+      addNoteToList("CMS = Permet de créer un site sans savoir coder.");
+      note2 = true;
     }
-    if (currentTime >= 19 && !thirdNoteAdded) {
-      addNoteToList("Troisième note");
-      thirdNoteAdded = true;
+    if (currentTime >= 78 && !note3) {
+      addNoteToList("Débouchés en dev : Master/École d'Ingé --> Développeur front/back/full-stack");
+      note3 = true;
     }
+    if (currentTime >= 88 && !note4) {
+      addNoteToList("Dév front = Il code la partie visible du site (l'interface).");
+      note4 = true;
+    }
+    if (currentTime >= 95 && !note5) {
+      addNoteToList("Dév back = Il code la partie invisible du site (ex : le processus de connexion à un compte en ligne).");
+      note5 = true;
+    }
+    if (currentTime >= 103 && !note6) {
+      addNoteToList("Dév full-stack = Front + Back");
+      note6 = true;
+    }
+    if (currentTime >= 141 && !note7) {
+      addNoteToList("Côté front du site = HTML (architecture) + CSS (style) + JavaScript (ajoute de l'interactivité dans le site).");
+      note7 = true;
+    }
+    if (currentTime >= 160 && !note8) {
+      addNoteToList("Côté back = SQL (la base de données) + PHP (pour envoyer l'information de la base de données au front qui va l'afficher).");
+      note8 = true;
+    }
+
   }
 
   // Add timeupdate and ended event listeners for the first video
@@ -43,6 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
       listItem.textContent = note;
       notesList.appendChild(listItem);
     }
+    notesList.scrollTop = notesList.scrollHeight;
   }
 });
 

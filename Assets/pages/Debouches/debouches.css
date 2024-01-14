@@ -1,0 +1,99 @@
+/* 18365e */
+#loader {
+    background-image: url(../../img.video/debouches.jpg);
+    animation: Disapear 1.5s ease forwards 5s;
+    display: none;
+}
+
+#loader a {
+    text-decoration: underline;
+    color: #4D2465;
+    transition: 0.1s ease-in;
+}
+
+#loader a:hover{
+    filter: brightness(2);
+}
+
+.loadingBar::after {
+    animation: loadBar 5s ease-in-out forwards;
+}
+
+.ecampusHeading{
+    padding: 40px;
+}
+
+.debouchesContainer::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+}
+
+.debouchesContainer::-webkit-scrollbar-thumb {
+    background-color: #ffffff30;
+    border-radius: 10px;
+}
+
+.ecampusContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.titleDebouches{
+    width: 70%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.textDebouches{
+    overflow: auto;
+    scrollbar-color: rgba(0, 0, 0, 0.805) transparent;
+}
+.debouchesContainer{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 80px;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.debouchesContainer li{
+    display: flex;
+    gap: 40px;
+    padding-block: 100px;
+}
+
+.debouchesContainer li:nth-child(even){
+    flex-direction: row-reverse;
+    
+}
+
+.debouchesContainer video{
+    width: 500px;
+}
+.debouchesContainer li p {
+    font-size: 1.2rem;
+}
+
+
+.debouchesContainer h3{
+    font-size: 1.4rem;
+    font-family: 'Electrolize', sans-serif;
+
+}
+.debouchesContainer h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #4D2465;
+}
+
+
+
+
+
+/**
+
+        box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.25);
+*/

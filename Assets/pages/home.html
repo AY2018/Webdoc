@@ -12,30 +12,31 @@
     />
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/home.css" />
-    <title>Document</title>
+    <title>Home</title>
   </head>
-  <body class="homePageBody">
+  <body class="homePageBody bodyDesktop">
     <header>
       <nav>
         <div class="nav_top">
-          <a href="" id="unclickableLink" class="unclickableLink "
-            >
-          <img class="isDiasbled" src="../img.video/logoEcampus.svg" alt=""
-          />
-        </a>
+          <a href="" id="unclickableLink" class="unclickableLink">
+            <img class="isDiasbled" src="../img.video/logoEcampus.svg" alt="" />
+          </a>
           <a href="./notes.html" id="unclickableLink2" class="unclickableLink">
-            <img class="isDiasbled" src="../img.video/note-removebg-preview.png" alt="" />
+            <img
+              class="isDiasbled"
+              src="../img.video/note-removebg-preview.png"
+              alt=""
+            />
           </a>
         </div>
         <div class="nav_bottom">
-          
           <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
         </div>
       </nav>
     </header>
 
     <main>
-      <article class="notif" onclick="closeNotif()">
+      <article class="notif" id="notif" onclick="closeNotif()">
         <figure>
           <img src="../img.video/mailLogo.png" alt="" />
         </figure>
@@ -43,10 +44,10 @@
           <h1>IUT de Vélizy-Rambouillet</h1>
           <h2>Bienvenue!</h2>
           <p>
-            Bonjour, Nous sommes heureux de vous annoncer que vous avez été
-            accepté dans notre nouveau programme "Dans la ....
+            Bonjour,<br />
+            Nous sommes heureux de vous annoncer que vous avez été accepté dans
+            notre nouveau programme "Dans la ....
           </p>
-          <span onclick="OpenMail()">Ouvrir l'email</span>
         </section>
       </article>
 
@@ -78,7 +79,7 @@
           formation. <br />
           <br />
           Ci-dessous, un lien qui mène vers notre plateforme E-Campus où vous
-          pourrait découvrir le sujet du projet :
+          pourriez découvrir le sujet du projet :
           <br />
           <br />
           <a href="./ecampus.html?guide=1">Lien Ecampus</a>
@@ -91,9 +92,7 @@
           </span>
         </section>
       </article>
-
-      
-
+    </main>
 
     <script src="../js/index.js"></script>
     <script src="../js/homepage.js"></script>

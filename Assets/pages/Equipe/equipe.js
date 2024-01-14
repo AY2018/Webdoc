@@ -11,14 +11,14 @@ const teamMembers = [
     name: 'Ayoub',
     preference: 'Développement Web',
     path: 'Bac S spé Maths – 2 ans en Management en Angleterre',
-    quote: 'L’université, ce n’est pas les cours, c’est les personnes que tu côtois au quotidien',
+    quote: 'L’université, ce n’est pas les cours, c’est les personnes que tu côtoies au quotidien.',
     imageUrl: '../../img.video/ayoub-removebg-preview.png'
   },
   {
     name: 'Nicolas',
     preference: 'Audiovisuel',
     path: 'BAC STI2D',
-    quote: 'Je savais pas qu’il fallait mettre une citation',
+    quote: "Les gros projets, y'a que ça de motivant !",
     imageUrl: '../../img.video/nico-removebg-preview.png'
   },
   {

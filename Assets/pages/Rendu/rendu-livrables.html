@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../css/main.css" />
+    <link rel="stylesheet" href="../../css/ecampus.css" />
+    <link rel="stylesheet" href="../../css/pageNotes.css" />
+    <link rel="stylesheet" href="./rendu.css" />
+    <title>Rendu | Livrables</title>
+  </head>
+  <body class="homePageBody">
+    <header>
+      <nav>
+        <div class="nav_top">
+          <a href="../ecampus.html" class="current"
+            ><img src="../../img.video/logoEcampus.svg" alt="icone Ecampus"
+          /></a>
+          <a id="noteLink" href="../notes.html"
+            ><img src="../../img.video/note-removebg-preview.png" alt="" />
+            <span id="noteNotif"></span
+          ></a>
+        </div>
+        <div class="nav_bottom">
+          <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <article class="ecampusContainer" id="ecampusContainer">
+        <section class="ecampusHeading">
+          <h1>Ayoub - Livrables</h1>
+          <h2>
+            La mission = Parcourir les travaux fournis par le groupe et les
+            soumettre.
+          </h2>
+        </section>
+
+        <section class="livrablesRendu">
+          <h2>Liste des livrables :</h2>
+          
+
+        
+          <table>
+  <tr>
+
+      <td>Dossier de Conception</td>
+    <td><a target="_blank" href="../../files/Dossier_Conception_SAE202.pdf">COSMO_Dossier_Conception_SAE202.pdf</a></td>
+    <td><i class="fa-solid fa-upload"></i></td>
+    
+  </tr>
+  <tr>
+
+      <td>Recommandation Graphique</td>
+    <td><a target="_blank" href="../../files/Recommandation_Graphique_SAE202.pdf">Recommandation_Graphique_SAE202.pdf</a></td>
+    <td><i class="fa-solid fa-upload"></i></td>
+    
+  </tr>
+
+  <tr>
+
+      <td>Rapport_Dev_SAE202.pdf</td>
+    <td><a target="_blank" href="../../files/Rapport_Dev_SAE202.pdf">Rapport_Dev_SAE202.pdf</a></td>
+    <td><i class="fa-solid fa-upload"></i></td>
+    
+  </tr>
+
+ 
+</table>
+
+          <button id="videoAppear" onclick="makeVideoAppear()">Soumettre</button>
+        </section>
+
+        <video controls id="videoPause" >
+          <source src="../../img.video/videofin.mp4" type="video/mp4" />
+        </video>
+        <section id="buttonSection">
+          <a onclick="completeStage(8)" href="../ecampus.html"
+            >Découvrir la nouvelle section ?</a>
+          <div id="refresh"><i class="fa-solid fa-rotate-right"></i></div>
+      </article>
+    </main>
+
+    <script src="../../js/index.js"></script>
+    <script src="../Pause/pause.js"></script>
+    <script src="./rendu.js"></script>
+  </body>
+</html>

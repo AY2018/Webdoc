@@ -9,20 +9,33 @@
     gap: 20px;
     top: 10px;
     position: absolute;
-    right: -400px;
-    animation: notifSlide 0.5s ease-in-out 1s forwards, pulse-shadow 2s infinite;
-    cursor: pointer;
+    right: -600px;
+}
+
+.notifAppear{
+    animation: notifSlide 0.5s ease-in-out 1s forwards, pulse-shadow 1s infinite;
+        cursor: pointer;
+}
+
+.notifDisappear{
+animation: notifSlideOut 0.5s ease-in-out forwards;
 }
 
 @keyframes notifSlide {
+    from{ 
+        right: -600px;
+    }
     to {
         right: 20px;
     }
 }
 
 @keyframes notifSlideOut {
+    from{
+        right: 20px;
+    }
     to {
-        right: -400px;
+        right: -600px;
     }
 }
 
@@ -71,6 +84,21 @@
     display: none;
     max-height: 80vh;
     overflow: auto;
+    transform: scale(0);
+    opacity: 0;
+    animation: grow 0.3s ease-in forwards;
+}
+
+
+
+
+
+
+@keyframes grow {
+    to{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 #mail .heading {
