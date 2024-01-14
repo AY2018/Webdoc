@@ -1,6 +1,7 @@
 let stage = localStorage.getItem('stage') !== null ? parseInt(localStorage.getItem('stage')) : 0;
 let noteCount = localStorage.getItem('noteCount') !== null ? parseInt(localStorage.getItem('noteCount')) : 0;
 
+stage = 8;
 
 function checkDeviceWidth() {
     console.log("Window inner width: ", window.innerWidth); // Add this line
@@ -10,7 +11,7 @@ function checkDeviceWidth() {
     }
 }
 
-window.onload = checkDeviceWidth;
+window.onload = checkDeviceWidth();
 
 
 // Function to update the stage both locally and (eventually) on the server
