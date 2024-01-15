@@ -96,5 +96,16 @@
 
     <script src="../js/index.js"></script>
     <script src="../js/homepage.js"></script>
+    <script>
+      function checkDeviceWidth() {
+        console.log('Window inner width: ', window.innerWidth); // Add this line
+        if (window.innerWidth < 961) {
+          window.location.href = '../pages/redirect.html';
+          console.log('Window inner width: ', window.innerWidth);
+        }
+      }
+
+      window.onload = checkDeviceWidth();
+    </script>
   </body>
 </html>

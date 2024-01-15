@@ -77,6 +77,15 @@
     </main>
 
     <script>
+      function checkDeviceWidth() {
+        console.log('Window inner width: ', window.innerWidth); // Add this line
+        if (window.innerWidth < 961) {
+          window.location.href = '../pages/redirect.html';
+          console.log('Window inner width: ', window.innerWidth);
+        }
+      }
+
+      window.onload = checkDeviceWidth();
       function togglePasswordVisibility(passwordId, eyeId) {
         var passwordInput = document.getElementById(passwordId);
         var eyeIcon = document.getElementById(eyeId);

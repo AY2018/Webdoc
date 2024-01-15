@@ -137,6 +137,7 @@
     
 }
 
+
 .conv li{
     width: fit-content;
     border-radius:5px;
@@ -153,6 +154,11 @@
     to{
         opacity: 1;
     }
+}
+
+.disabled {
+    opacity: 0.5;
+    pointer-events: none;
 }
 
 

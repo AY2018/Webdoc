@@ -153,6 +153,19 @@
     z-index: 71;
     transform: scale(1.1);
     transition: scale 0.5s ease-in;
+    position: relative;
+    cursor: not-allowed;
+    filter: contrast(10%);
+}
+
+.Guide1 .ecampusGallery .guideBox::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
 }
 
 .Guide1 .step1{

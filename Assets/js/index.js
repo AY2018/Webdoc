@@ -2,15 +2,7 @@ let stage = localStorage.getItem('stage') !== null ? parseInt(localStorage.getIt
 let noteCount = localStorage.getItem('noteCount') !== null ? parseInt(localStorage.getItem('noteCount')) : 0;
 
 
-function checkDeviceWidth() {
-    console.log("Window inner width: ", window.innerWidth); // Add this line
-    if (window.innerWidth < 961) {
-        window.location.href = '../pages/redirect.html';
-        console.log("Window inner width: ", window.innerWidth);
-    }
-}
 
-window.onload = checkDeviceWidth();
 
 
 // Function to update the stage both locally and (eventually) on the server
